@@ -1,0 +1,120 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 48rem;
+  padding: 2rem 1rem;
+}
+
+body.seite-eintrag {
+  max-width: 72rem;
+}
+
+header h1 {
+  margin-bottom: 0.25rem;
+}
+
+/* Eintrag: Überschrift, dann Bild + Text nebeneinander (Desktop) */
+.wort-eintrag {
+  margin-top: 1.5rem;
+}
+
+.wort-titel {
+  margin: 0 0 1.5rem;
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  line-height: 1.2;
+}
+
+.wort-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.wort-bild {
+  margin: 0;
+}
+
+.wort-bild img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+.wort-text > :first-child {
+  margin-top: 0;
+}
+
+/* Mobile: Bild unter Überschrift, vor dem Text */
+@media (max-width: 768px) {
+  .wort-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .wort-bild {
+    order: 1;
+  }
+
+  .wort-text {
+    order: 2;
+  }
+}
+
+/* Buch-Export (HTML): Vorschau und Druck als Doppelseite */
+.buch-export {
+  max-width: 90rem;
+}
+
+.buch-export .buch-titel {
+  margin: 2rem 0 1rem;
+}
+
+.buch-export .buch-spread {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 3rem;
+}
+
+.buch-export .buch-bildseite img {
+  width: 100%;
+  height: auto;
+}
+
+@media print {
+  .buch-eintrag {
+    break-after: page;
+  }
+
+  .buch-spread {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+  }
+
+  .buch-bildseite,
+  .buch-textseite {
+    break-inside: avoid;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+
+  .buch-bildseite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buch-bildseite img {
+    max-width: 100%;
+    max-height: 90vh;
+    object-fit: contain;
+  }
+}

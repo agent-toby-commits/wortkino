@@ -1,0 +1,32 @@
+# Schema für Lexikoneinträge (content/woerter/*.md)
+#
+# Festes Muster:
+#   Frontmatter: begriff, bild (Pflicht)
+#   Body:
+#     1. # Begriff          (Hauptüberschrift, muss zu begriff passen)
+#     2. ## Bedeutung
+#     3. ## Beispiel
+#     4. ## Bild im Kopf
+
+required_frontmatter:
+  - begriff
+  - bild
+
+required_title:
+  heading_level: 1
+  must_match_frontmatter: begriff
+
+required_body_sections:
+  - Bedeutung
+  - Beispiel
+  - Bild im Kopf
+
+body_section_format:
+  heading_level: 2
+  trailing_colon: false
+
+image_convention:
+  location: content/woerter/
+  allowed_extensions:
+    - webp
+    - png
