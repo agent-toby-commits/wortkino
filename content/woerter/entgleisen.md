@@ -7,14 +7,15 @@ bild: entgleisen.png
 
 ## Bedeutung
 
-*Von den Schienen abkommen — übertragen: aus dem geplanten Verlauf geraten, die Kontrolle verlieren.*
+*Aus der vorgesehenen Bahn geraten — von Zügen wörtlich, von Verhalten oder Mimik übertragen gemeint.*
 
 ## Beispiel
 
-*„Die Verhandlungen sind völlig entgleist.“*
+*„Bei der Nachricht entgleisten ihm kurz die Gesichtszüge.“*
 
 ## Bild im Kopf
 
-**Entgleisen** bedeutet wörtlich: die Gleise verlassen. Ein Zug fährt plötzlich quer über Wiesen, durch einen Parkplatz und stoppt vor einem Bäcker — während die Verhandlungspartner noch in Sitzungssälen sitzen und denken, sie seien „nur etwas aus dem Takt“.
+**Entgleisen** heißt wörtlich: die Gleise verlassen. Ein Zug, der entgleist, fährt nicht mehr dort, wo Schienen liegen, sondern quer über Wiesen, durch Vorgärten, vorbei an ratlosen Zaungästen. Genau dieses Bild wird auf Gesichter und Verhalten übertragen — nur dass hier keine Schienen, sondern gesellschaftliche Erwartungen die vorgesehene Strecke markieren.
 
-Der Schaffner verteilt Brötchen. Die Agenda liegt verstreut auf den Schienen. Entgleist ist untertrieben.
+**Entgleiste Gesichtszüge** bedeuten demnach: Die Mimik ist aus ihrer gewohnten Spur gesprungen und rast nun unkontrolliert querfeldein — die Augenbrauen im Steilhang, der Mund irgendwo zwischen Erstaunen und Entsetzen geparkt, während der Rest des Gesichts noch versucht, freundlich zu wirken. Bei **entgleistem Verhalten** ist es ähnlich: Jemand verlässt den vorgesehenen Umgangston und donnert stattdessen durchs offene Gelände sozialer Fettnäpfchen.
+

@@ -7,14 +7,14 @@ bild: ehrgeiz.png
 
 ## Bedeutung
 
-*Der starke Wunsch, etwas zu erreichen oder erfolgreich zu sein.*
+*Der starke innere Antrieb, etwas zu erreichen oder besonders erfolgreich zu sein.*
 
 ## Beispiel
 
-*„Sein Ehrgeiz trieb ihn an die Spitze des Unternehmens.“*
+*„Ihr Ehrgeiz trieb sie bis an die Spitze des Unternehmens.“*
 
 ## Bild im Kopf
 
-**Ehrgeiz** setzt sich zusammen aus **Ehr** und **Geiz** — wörtlich also Gier nach Ehre, als wäre Ansehen etwas, das man horten kann.
+**Ehrgeiz** zerlegt sich sauber in **Ehre** und **Geiz** — wörtlich also die Weigerung, auch nur ein Quäntchen Ansehen herzugeben. Wer ehrgeizig ist, hortet demnach nicht Geld, sondern Anerkennung, mit derselben Verbissenheit, mit der andere Menschen Pfandflaschen sammeln.
 
-In der Szene stapelt der Manager Ehrenmedaillen, Urkunden und Pokale bis zur Decke, während er gleichzeitig niemandem ein Kompliment gönnt. Sein Ehrgeiz ist ein Tresor. Die Spitze des Unternehmens ist nur der oberste Stapel.
+Vor diesem Hintergrund hat sich der Begriff gerade - aber nicht nur - in der Sportwelt ein überraschend positives Image bewahrt. Fehlender Ehrgeiz ist praktisch nie als Kompliment gedacht. Vielleicht wäre aber manchmal etwas weniger Ehrgeiz besser als mehr.

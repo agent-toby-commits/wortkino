@@ -7,14 +7,16 @@ bild: kehlkopf.png
 
 ## Bedeutung
 
-*Ein Organ im Hals, das für die Stimmbildung wichtig ist.*
+*Ein knorpeliges Organ im Hals, das die Stimmbänder trägt und für die Stimmbildung sorgt.*
 
 ## Beispiel
 
-*„Der Arzt untersuchte seinen Kehlkopf.“*
+*„Beim Schlucken hebt und senkt sich der Kehlkopf sichtbar.“*
 
 ## Bild im Kopf
 
-**Kehlkopf** klingt wie ein Kopf, der in der Kehle wohnt — ein winziger Kopf mit Gesicht, der im Hals sitzt und jede Äußerung persönlich absegnet.
+**Kehlkopf** behauptet, wörtlich genommen, dass in der Kehle ein zweiter, eigenständiger Kopf sitzt — kleiner als der oben auf den Schultern, aber offenbar zuständig genug, um jedes gesprochene Wort persönlich freizugeben. 
 
-Beim Arztbesuch leuchtet die Taschenlampe in den Hals. Der Kehlkopf blinzelt. „Aua“, sagt er. Der Patient hustet höflich. Zwei Köpfe, ein Körper — anatomisch kompliziert, sprachlich eindeutig.
+Man stellt sich diesen Zweitkopf am besten mit eigenem Gesicht vor, das bei jedem Schluck kurz nach oben rutscht und wieder verschwindet, als würde es grüßen. Bei manchen, fast immer Männern, muss man sich dieses Köpfchen gar nicht vorstellen, sondern sieht es als **Adamsapfel** in voller Aktion.
+
+Während der Kehlkopf unter anderem auch die Stimmbänder enthält, und damit zumindest als wichtiger Bestandteil des Körpers gilt, wirkt der Adamsapfel eher wie ein im Hals stecken gebliebenes Stück der verbotenen Frucht. Übrigens erwähnt die Bibel gar keinen Apfel, aber das wäre ein anderer Lexikoneintrag.

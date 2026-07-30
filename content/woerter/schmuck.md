@@ -7,14 +7,14 @@ bild: schmuck.png
 
 ## Bedeutung
 
-*Wertvolle oder dekorative Gegenstände, die man am Körper trägt — oder umgangssprachlich: etwas, das besonders hübsch oder aufwendig gestaltet ist.*
+*Wertvolle oder dekorative Gegenstände, die am Körper getragen werden — Ketten, Ringe, Ohrringe.*
 
 ## Beispiel
 
-*„Sie trug auffälligen Schmuck zur Premiere.“*
+*„Zur Premiere trug sie auffälligen Schmuck.“*
 
 ## Bild im Kopf
 
-Bei **Schmuck** denkt man zuerst an funkelnde Ketten und Ringe. Wörtlich genommen ist es aber auch einfach das, womit man etwas **schmückt**. Plötzlich trägt die Frau nicht nur Juwelen, sondern der gesamte Abend ist mit Lichterketten behängt, der rote Teppich mit Goldstaub bestreut, und sogar das Champagnerglas hat einen kleinen Diadem-Aufsatz.
+Verglichen mit seinen internationalen Verwandten kommt **Schmuck** sprachlich denkbar unglamourös daher. Das Englische hat **jewellery**, abgeleitet von Edelsteinen, das Französische **bijou**, ein Wort, das schon beim Aussprechen nach Vitrine und Samtkissen klingt. Der Deutsche dagegen spricht von **Schmuck** — ein Wort, das genauso gut zu einem Kieselstein passen würde.
 
-Der Partner neben ihr trägt schlicht eine Uhr. Die Premiere trägt alles andere.
+Sagen Sie das Wort einfach fünf mal hintereinander. Schmuck. Schmuck. Schmuck. Schmuck. Schmuck. Irgendwann klingt es überhaupt nicht mehr nach Gold, Diamanten oder Perlen. Eher nach einem unschönen Adamsapfel. Der hat seinen Auftritt aber in einem anderen Wörterbuch-Eintrag.

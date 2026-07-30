@@ -7,14 +7,16 @@ bild: eichel.png
 
 ## Bedeutung
 
-*Die Frucht der Eiche — oder in der Botanik: der samenführende Teil bestimmter Pflanzen.*
+*Die Frucht der Eiche — umgangssprachlich zugleich Bezeichnung für die Spitze des männlichen Gliedes.*
 
 ## Beispiel
 
-*„Ein Eichhörnchen sammelte Eicheln im Park.“*
+*„Ein Eichhörnchen sammelte Eicheln für den Winter.“*
 
 ## Bild im Kopf
 
-**Eichel** gehört in den Wald, unter Eichhörnchen, in Herbstkörbe. Wörtlich ist sie einfach die kleine Kappe der Eiche — ein winziges Dach für einen winzigen Baum.
+**Eichel** ist eines der zuverlässigsten Teekesselchen der deutschen Sprache: Das eine Mal fällt sie im Herbst von Bäumen und wird von Eichhörnchen gehortet, das andere Mal ist sie anatomisch meist verdeckt und wird eher nicht öffentlich diskutiert. Beide Bedeutungen tragen denselben Namen — und, wörtlich betrachtet, auch dieselbe Form: klein, rundlich, mit markanter Kappe.
 
-Das Eichhörnchen stapelt Eicheln wie Goldbarren. Jede Eichel trägt eine Miniatur-Eiche auf dem Kopf. Der Park wird zum Börsenparkett. Die Natur handelt mit Zukunft.
+Wer sich das konsequent ausmalt, sieht ein Eichhörnchen, das mit ernster Miene durch den Park hüpft und Eicheln stapelt, ohne zu ahnen, welche zweite Bedeutung sein Wintervorrat im Deutschen trägt. Selbst der **Eichelhäher**, ein Vogel, der buchstäblich nach seiner Vorliebe für Eicheln benannt ist, bleibt von der Doppeldeutigkeit unberührt und hackt fröhlich weiter im Unterholz.
+
+Die Sprache selbst trennt beide Bedeutungen nie ganz sauber — erstaunlicherweise funktioniert die Trennung sprachlich trotzdem völlig problemlos. Kaum jemand denkt bei einem Spaziergang durch den Wald an den Urologen. Und beim Urologen nicht an den Eichelhähe.

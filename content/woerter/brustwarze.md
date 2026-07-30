@@ -7,7 +7,7 @@ bild: brustwarze.png
 
 ## Bedeutung
 
-*Eine kleine Erhebung auf der Brust — beim Menschen oder bei Säugetieren.*
+*Die kleine Erhebung in der Mitte der weiblichen oder männlichen Brust.*
 
 ## Beispiel
 
@@ -15,6 +15,7 @@ bild: brustwarze.png
 
 ## Bild im Kopf
 
-**Brustwarze** setzt sich zusammen aus **Brust** und **Warze**. Wörtlich ist es also eine Warze, die ausschließlich auf der Brust wohnt — wie ein kleiner Mieter mit eigenem Mietvertrag.
+Kaum ein Körperteil trägt einen so unschönen Namen wie die **Brustwarze**. Schuld ist der zweite Wortbestandteil: **Warze** — ein Begriff, der sonst ausschließlich für Hautwucherungen reserviert ist, die man beim Hautarzt vereisen lässt. Wörtlich genommen sitzt in der Mitte der Brust also eine medizinisch behandlungsbedürftige Wucherung, die aber, anders als ihre Verwandten an Fuß oder Hand, fest eingeplant und auf Dauer erwünscht ist.
 
-In der Szene trägt die Warze winzige Sonnenbrille und winkt dem Baby zu. Das Baby ist verwirrt. Die Brust ist ein Wohngebiet. Die Warze ist der Hausmeister.
+
+Seit einigen Jahren hat sich im Alltag der Ersatzbegriff **Nippel** eingebürgert — kürzer, neutraler, weniger dermatologisch. Wer allerdings genau hinschaut, bemerkt: Der Nippel deckt nur den Vorsprung selbst ab. Der ringförmige, dunklere Bereich drumherum — der sogenannte **Warzenvorhof** — bleibt sprachlich unversorgt und muss weiterhin mit seinem Warzen-Erbe leben. Die Sprache ist manchmal erstaunlich hartnäckig. Selbst dort, wo sie längst niemand mehr besonders schön findet.

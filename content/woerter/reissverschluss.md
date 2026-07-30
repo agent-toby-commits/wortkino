@@ -7,14 +7,17 @@ bild: reissverschluss.png
 
 ## Bedeutung
 
-*Ein Verschluss aus zwei Reihen, die durch einen Schieber verbunden werden — an Jacken, Taschen, Kissen.*
+*Ein durch einen Schieber verbundener Verschluss aus zwei ineinandergreifenden Zahnreihen.*
 
 ## Beispiel
 
-*„Der Reißverschluss an der Jacke klemmte.“*
+*„Der Reißverschluss der Jacke klemmte auf halber Höhe.“*
 
 ## Bild im Kopf
 
-**Reißverschluss** heißt wörtlich: ein Verschluss, der **reißt**. Man erwartet also, dass er bei jedem Öffnen ein dramatisches RRRIP macht und Stofffetzen fliegen.
+Schon beim Aussprechen von **Reißverschluss** hört man förmlich, wie etwas hakt, ratscht, oder sogar **reisst**. Dabei soll er gerade nicht reißen. Im Gegenteil: Sobald ein Reißverschluss tatsächlich reißt, hat man meistens ein Problem.
 
-Stattdessen gleitet er höflich auf und zu — ein enttäuschter Actionfilm. Der Schieber ist der Star. Die Zähne warten auf den großen Auftritt. Heute wieder: kein Reißen. Nur Verschluss.
+Gemeint ist natürlich nicht das Material, sondern die schnelle Bewegung, mit der sich beide Zahnreihen voneinander trennen.
+Trotzdem bleibt ein leicht ungutes Gefühl. Schließlich hat jeder schon erleben müssen, dass es doch keine gute Idee war, zu forsch am Verschluss zu **reißen**. Kaum ein Gebrauchsgegenstand trägt den möglichen Defekt so offen im Namen.
+
+Dafür birgt der mögliche Defekt auch Gelegenheit für ein befriedigendes Erfolgserlebnis: wenn sich nach einigem Fummeln der verhakte Verschluss plötzlich doch wieder geschmeidig ziehen lässt - dieses Mal aber mit Vorsicht und ohne daran zu reißen.

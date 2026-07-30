@@ -7,14 +7,14 @@ bild: unheil.png
 
 ## Bedeutung
 
-*Großes Unglück oder drohende Gefahr — etwas Schreckliches, das bevorsteht.*
+*Ein großes, meist plötzlich hereinbrechendes Unglück oder eine drohende Gefahr.*
 
 ## Beispiel
 
-*„Die dunklen Wolken kündigten Unheil an.“*
+*„Schon die dunklen Wolken kündigten Unheil an.“*
 
 ## Bild im Kopf
 
-**Unheil** ist das Gegenteil von Heil — wörtlich also die Abwesenheit von Heil, ein Zustand, in dem alles schiefgeht, bevor es überhaupt angefangen hat.
+**Unheil** ist wörtlich genommen nichts anderes als die Abwesenheit von **Heil** — als hätte jemand dem inzwischen verpönten Ruhm-Wort von einst alles nehmen wollen.
 
-Die Wolken tragen Schilder: „Unheil“. Darunter steht ein Mann mit Sonnenschirm und lächelt optimistisch. Der Unheil-Vogel sitzt auf seiner Schulter. Das Heil hat Urlaub genommen.
+Während von Heil heute kaum noch jemand spricht, hat **Unheil** seinen Platz in der Sprache spätestens seit Corona wieder behauptet. Unheil droht. Unheil zieht auf. Unheil nimmt seinen Lauf. Da kann man nur fliehen. Und sein **Heil** in der Flucht suchen. 

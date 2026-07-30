@@ -7,14 +7,15 @@ bild: leitfaden.png
 
 ## Bedeutung
 
-*Eine Anleitung oder Orientierungshilfe, die durch ein Thema oder Verfahren führt.*
+*Eine schriftliche Anleitung oder Orientierungshilfe, die Schritt für Schritt durch ein Thema oder Verfahren führt.*
 
 ## Beispiel
 
-*„Der Leitfaden erklärt Schritt für Schritt die Installation.“*
+*„Der Leitfaden erklärt die Verhaltensregeln.“*
 
 ## Bild im Kopf
 
-**Leitfaden** ist wörtlich ein **Faden**, der leitet — eine Schnur, die man durch ein Labyrinth spannt, damit man nicht verloren geht.
+**Leitfaden** ist, wörtlich genommen, tatsächlich ein Faden, der leitet — eine Schnur, die man sich am besten fest um die Faust wickelt, bevor man sich in ein Labyrinth aus Bedienungsanleitungen, Formularen und Regeln begibt.
 
-Der Installateur hält den Faden fest, während er durch Wände, Kabelkanäle und Bedienungsanleitungen kriecht. Am anderen Ende sitzt ein Kollege und liest laut vor. Ohne Faden: Chaos. Mit Faden: immer noch Chaos, aber strukturiert.
+Beim Vortasten durch dieses Labyrinth stellt das Abrollen des Fadens sicher, dass man auch wieder zuruckfindet. Doch reisst dieser auf dem Weg unbemerkt, steht der Suchende plötzlich allein im Dunkeln zwischen zwei Absätzen.
+

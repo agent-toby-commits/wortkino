@@ -7,14 +7,16 @@ bild: buergersteig.png
 
 ## Bedeutung
 
-*Der Gehweg entlang einer Straße — der Bereich für Fußgänger.*
+*Der befestigte Gehweg am Straßenrand, reserviert für Fußgänger.*
 
 ## Beispiel
 
-*„Bitte auf dem Bürgersteig bleiben.“*
+*„Bitte bleiben Sie auf dem Bürgersteig.“*
 
 ## Bild im Kopf
 
-**Bürgersteig** ist der Weg der **Bürger** — wörtlich ein Steig, auf dem ausschließlich Bürger entlangmarschieren, ordentlich in Reihe, mit Ausweis in der Hand.
+**Bürgersteig** ist, wörtlich genommen, ein Steig — ein schmaler Pfad —, der ausschließlich **Bürgern** vorbehalten war. Wer ihn betritt, müsste demnach seinen Personalausweis vorzeigen oder zumindest glaubhaft versichern, ordentlich gemeldet und wahlberechtigt zu sein.
 
-Autos fahren nebenan. Auf dem Bürgersteig wird diskutiert, gewählt und gelegentlich gestiefelt. Jeder Schritt ist politisch. Der Gehweg ist die kleinste Demokratie der Stadt.
+Auf diesem Bürgersteig wandelten also keine bloßen Passanten, sondern **Bürgersleut** im vollen staatsbürgerlichen Sinn: aufrecht, gesetzestreu, mit Rathausausweis in der Innentasche. Kinder, Touristen und Hunde bewegten sich dabei in einer rechtlichen Grauzone — geduldet, aber nicht wirklich Teil des Bürgertums. Adlige wiederum hatten ihre eigenen Flanierzonen, um nicht mit dem gemeinen **Bürgertum** durchmischt zu werden
+
+Heute denkt daran natürlich niemand mehr. Der Bürgersteig ist längst zum Gehweg für jedermann geworden.

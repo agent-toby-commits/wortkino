@@ -7,14 +7,14 @@ bild: um-sich-schiesen.png
 
 ## Bedeutung
 
-*In alle Richtungen schießen — meist in übertragener oder historischer Bedeutung: wahllos Feuer geben.*
+*Wahllos in mehrere Richtungen schießen, ohne gezieltes Ziel.*
 
 ## Beispiel
 
-*„In der Verwirrung schossen die Soldaten um sich.“*
+*„Festnahme in Frankfurt: Mann schießt in Bahnhofsviertel um sich“*
 
 ## Bild im Kopf
 
-**Um sich schießen** bedeutet, dass man nicht nach vorne zielt, sondern im Kreis. Wörtlich gesehen dreht sich die Person langsam auf der Stelle und feuert in jede Himmelsrichtung — Norden, Osten, Süden, Westen, plus schräg nach oben für den Fall, dass Gefahr aus der Luft kommt.
+Kaum eine Wendung taucht in Lokal-Kriminalberichten so zuverlässig auf wie **um sich schießen** — meist ohne weitere Details, fast schon als Textbaustein zwischen „laut Zeugenaussagen" und „die Hintergründe sind noch unklar". Wörtlich genommen verlangt die Formulierung allerdings einiges: Wer wirklich um sich herum schießt, dreht sich dabei komplett im Kreis und feuert systematisch in alle Himmelsrichtungen — plus schräg nach oben, für den unwahrscheinlichen Fall eines Angriffs von der Decke.
 
-Am Ende steht sie allein in der Mitte eines perfekten Kreises aus Einschusslöchern. Um sich herum. Niemand sonst war da.
+Wahrscheinlich hat noch kein echter Ganove jemals wirklich um sich herum geschossen. Nur Michael Jackson in Smooth Crimal. In der Realität wird meist einfach panisch in eine ungefähre Richtung gefeuert — „um sich schießen" klingt im Polizeibericht nur deutlich dramatischer.
