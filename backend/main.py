@@ -1,5 +1,7 @@
 """Wortkino Backend – dynamisches Rendering und API."""
 
+from __future__ import annotations
+
 import re
 from pathlib import Path
 
@@ -40,6 +42,25 @@ def load_entry(slug: str):
     return post, title, body_md
 
 
+def list_entries() -> list[dict]:
+    entries: list[dict] = []
+    for path in CONTENT_DIR.glob("*.md"):
+        post = frontmatter.load(path)
+        title, body_md = split_entry_content(post.content)
+        if not title:
+            title = str(post.get("begriff", path.stem))
+        entries.append(
+            {
+                "slug": path.stem,
+                "title": title,
+                "post": post,
+                "body_md": body_md,
+            }
+        )
+    entries.sort(key=lambda e: e["title"].casefold())
+    return entries
+
+
 def render_bild_html(bild: str | None, title: str) -> str:
     if not bild:
         return ""
@@ -50,19 +71,76 @@ def render_bild_html(bild: str | None, title: str) -> str:
     )
 
 
+def render_entry_block(
+    slug: str,
+    title: str,
+    post,
+    body_md: str,
+    *,
+    title_as_link: bool = False,
+) -> str:
+    text_html = markdown.markdown(body_md, extensions=["extra"])
+    bild_html = render_bild_html(post.get("bild"), title)
+    if title_as_link:
+        title_html = f'<h2 class="wort-titel"><a href="/woerter/{slug}">{title}</a></h2>'
+    else:
+        title_html = f'<h1 class="wort-titel">{title}</h1>'
+
+    return f"""<article class="wort-eintrag" id="{slug}">
+  {title_html}
+  <div class="wort-layout">
+    {bild_html}
+    <div class="wort-text">
+      {text_html}
+    </div>
+  </div>
+</article>"""
+
+
+def render_az_nav(entries: list[dict]) -> str:
+    items = "\n".join(
+        f'      <li><a href="/woerter/{e["slug"]}">{e["title"]}</a></li>' for e in entries
+    )
+    return f"""<nav class="wort-az" aria-label="Alphabetische Wortliste">
+  <ul>
+{items}
+  </ul>
+</nav>"""
+
+
 @app.get("/", response_class=HTMLResponse)
 def index():
     index_path = FRONTEND_DIR / "index.html"
-    if index_path.exists():
-        return index_path.read_text(encoding="utf-8")
-    return "<h1>Wortkino</h1>"
+    if not index_path.exists():
+        return HTMLResponse("<h1>Wortkino</h1>", status_code=500)
+
+    entries = list_entries()
+    az_nav = render_az_nav(entries)
+    overview = (
+        '<section class="wort-uebersicht" aria-label="Alle Einträge">\n'
+        + "\n".join(
+            render_entry_block(
+                e["slug"],
+                e["title"],
+                e["post"],
+                e["body_md"],
+                title_as_link=True,
+            )
+            for e in entries
+        )
+        + "\n</section>"
+    )
+
+    html = index_path.read_text(encoding="utf-8")
+    html = html.replace("<!--WORT_AZ-->", az_nav)
+    html = html.replace("<!--WORT_UEBERSICHT-->", overview)
+    return html
 
 
 @app.get("/woerter/{slug}", response_class=HTMLResponse)
 def wort_detail(slug: str):
     post, title, body_md = load_entry(slug)
-    text_html = markdown.markdown(body_md, extensions=["extra"])
-    bild_html = render_bild_html(post.get("bild"), title)
+    entry_html = render_entry_block(slug, title, post, body_md)
 
     return f"""<!DOCTYPE html>
 <html lang="de">
@@ -74,14 +152,8 @@ def wort_detail(slug: str):
 </head>
 <body class="seite-eintrag">
   <header><a href="/">Wortkino</a></header>
-  <main class="wort-eintrag">
-    <h1 class="wort-titel">{title}</h1>
-    <div class="wort-layout">
-      {bild_html}
-      <div class="wort-text">
-        {text_html}
-      </div>
-    </div>
+  <main>
+    {entry_html}
   </main>
 </body>
 </html>"""

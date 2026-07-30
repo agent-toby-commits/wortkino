@@ -11,10 +11,11 @@ bild: achsel.png
 
 ## Beispiel
 
-*„Er trug das Buch unter der Achsel.“*
+*„Sie klemmte sich die Tasche unter die Achsel.“*
 
 ## Bild im Kopf
 
-**Achsel** klingt wie ein winziger Ort — die **Achse** des Arms, ein Versteck, ein Bücherregal aus Fleisch.
+Welche Assozationen haben Sie bei dem Wort **Achsel**? Achselschweiss, Achselhaare, oder der bedauernswerte Axel aus dem Bekanntenkreis? Höchstwahrscheinlich sind es keine schönen Assoziationen, und meistens kann man nicht sagen, was zuerst da war: klingt das Wort so hässlich wegen der unguten Assoziationen, oder assoziert man ein hässliches Wort automatisch negativ?
 
-Wörtlich klemmt das Buch nicht einfach „unterm Arm“, sondern rutscht in die Achsel wie in eine Schublade. Die Achsel schließt sich. Das Buch ist sicher. Der Arm ist ein Aktentaschen-System der Natur.
+Dabei bieten die Achseln ja gerade dadurch die Möglichkeit, sich souverän und selbstbewusst zu zeigen - **achsel**frei, als Frau gerne auch provozierend unrasiert. Nur vor der Kombination aus Achselschweiss, Achselhaaren und achselfrei sollten beide Geschlechter sich hüten - die nicht ansehnlichen nassen Haarzottel sgelten nur bei Basketballer*innen als akzeptabel.
+

@@ -10,12 +10,68 @@ body {
   padding: 2rem 1rem;
 }
 
-body.seite-eintrag {
+body.seite-eintrag,
+body.seite-landing {
   max-width: 72rem;
 }
 
 header h1 {
   margin-bottom: 0.25rem;
+}
+
+/* Alphabetische Wortliste auf der Landingpage */
+.wort-az {
+  margin: 2rem 0 3rem;
+}
+
+.wort-az ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  column-gap: 2rem;
+}
+
+.wort-az li {
+  break-inside: avoid;
+  margin: 0.2rem 0;
+}
+
+.wort-az a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.wort-az a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.wort-uebersicht .wort-eintrag {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ddd;
+}
+
+.wort-uebersicht .wort-eintrag:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.wort-uebersicht .wort-titel a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wort-uebersicht .wort-titel a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+@media (min-width: 900px) {
+  .wort-az ul {
+    columns: 3;
+  }
 }
 
 /* Eintrag: Überschrift, dann Bild + Text nebeneinander (Desktop) */
