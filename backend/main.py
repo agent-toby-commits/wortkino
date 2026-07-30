@@ -62,11 +62,16 @@ def list_entries() -> list[dict]:
 
 
 def render_bild_html(bild: str | None, title: str) -> str:
-    if not bild:
-        return ""
+    if not bild or not (CONTENT_DIR / bild).exists():
+        return (
+            '<div class="tafel-platzhalter" aria-hidden="true">'
+            "<span>Abb. folgt</span>"
+            "</div>"
+        )
     return (
         f'<figure class="wort-bild">'
         f'<img src="/content/woerter/{bild}" alt="Illustration zu {title}">'
+        f'<figcaption>Bild im Kopf, wörtlich genommen.</figcaption>'
         f"</figure>"
     )
 
@@ -78,6 +83,7 @@ def render_entry_block(
     body_md: str,
     *,
     title_as_link: bool = False,
+    nr: int | None = None,
 ) -> str:
     text_html = markdown.markdown(body_md, extensions=["extra"])
     bild_html = render_bild_html(post.get("bild"), title)
@@ -85,9 +91,13 @@ def render_entry_block(
         title_html = f'<h2 class="wort-titel"><a href="/woerter/{slug}">{title}</a></h2>'
     else:
         title_html = f'<h1 class="wort-titel">{title}</h1>'
+    nr_html = f'<span class="wort-nr">Nr. {nr:02d}</span>' if nr is not None else ""
 
     return f"""<article class="wort-eintrag" id="{slug}">
-  {title_html}
+  <div class="wort-kopf">
+    {title_html}
+    {nr_html}
+  </div>
   <div class="wort-layout">
     {bild_html}
     <div class="wort-text">
@@ -102,6 +112,7 @@ def render_az_nav(entries: list[dict]) -> str:
         f'      <li><a href="/woerter/{e["slug"]}">{e["title"]}</a></li>' for e in entries
     )
     return f"""<nav class="wort-az" aria-label="Alphabetische Wortliste">
+  <h2>Register A&ndash;Z</h2>
   <ul>
 {items}
   </ul>
@@ -116,18 +127,20 @@ def index():
 
     entries = list_entries()
     az_nav = render_az_nav(entries)
+    entry_blocks = [
+        render_entry_block(
+            e["slug"],
+            e["title"],
+            e["post"],
+            e["body_md"],
+            title_as_link=True,
+            nr=i,
+        )
+        for i, e in enumerate(entries, start=1)
+    ]
     overview = (
         '<section class="wort-uebersicht" aria-label="Alle Einträge">\n'
-        + "\n".join(
-            render_entry_block(
-                e["slug"],
-                e["title"],
-                e["post"],
-                e["body_md"],
-                title_as_link=True,
-            )
-            for e in entries
-        )
+        + '\n<hr class="trennregel">\n'.join(entry_blocks)
         + "\n</section>"
     )
 
@@ -147,11 +160,13 @@ def wort_detail(slug: str):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title} – Wortkino</title>
+  <title>{title} – Wortwört</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="seite-eintrag">
-  <header><a href="/">Wortkino</a></header>
+  <header><a href="/">Wortwört</a></header>
   <main>
     {entry_html}
   </main>

@@ -7,14 +7,26 @@ bild: etwas-stemmen.png
 
 ## Bedeutung
 
-*Eine schwere Last mit großer körperlicher Anstrengung hochheben oder in Position halten — übertragen auch: eine schwierige Situation bewältigen.*
+*Eine Herausforderung mit großer Anstrengung meistern*
 
 ## Beispiel
 
-*„Er stemmte die Kiste allein in den Keller.“*
+*„Als Alleinerziehende auch noch einen Vollzeitjob zu stemmen ist fast unmöglich“*
 
 ## Bild im Kopf
 
-**Stemmen** klingt nach Gewichtheben — und genau so sieht es aus: Die Kiste wird nicht getragen, sondern mit beiden Armen nach oben **gestemmt**, als müsste sie gleich die Decke durchbrechen.
+# etwas stemmen
 
-Noch absurder wird es im übertragenen Sinn. „Er stemmt die Krise“ bedeutet dann offenbar, dass er die gesamte Wirtschaftskrise wie eine Hantel über dem Kopf hält, während im Hintergrund Politiker anfeuern und Statistiken als Scheiben an jeder Seite hängen.
+## Bedeutung
+
+*Eine Herausforderung mit großer Anstrengung meistern*
+
+## Beispiel
+
+*„Als Alleinerziehende auch noch einen Vollzeitjob zu stemmen ist fast unmöglich“*
+
+## Bild im Kopf
+
+Wer etwas **stemmt**, trägt es nicht einfach nur - sondern drückt sich mit ganzer Kraft gegen eine schwere Last. Vor dem inneren Auge wird aus der Herausforderung so ein dicer **Baumstamm**, der mühsam nach oben **gestemmt** wird. Man sieht förmlich, wie sich die Beine durchdrücken und die Arme vor Anstrengung zittern.
+
+Wenn Ihnen eine Freundin erzählt, was sie alles gleichzeitig bewältigen muss - entgegnen Sie doch einfach mal mit bewunderndem Unterton "Wie **stemmst** du das nur?" So findet sie vielleicht in der Verzweiflung neue Stärke.

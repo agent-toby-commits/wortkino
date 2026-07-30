@@ -1,27 +1,72 @@
 :root {
   color-scheme: light;
-  font-family: system-ui, sans-serif;
-  line-height: 1.6;
+  --paper: #faf6ef;
+  --ink: #201c18;
+  --ink-soft: #55504a;
+  --rule: #d8d0c2;
+  --akzent: #7a2e2e;
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  line-height: 1.65;
 }
 
 body {
   margin: 0 auto;
   max-width: 48rem;
   padding: 2rem 1rem;
+  background: var(--paper);
+  color: var(--ink);
 }
 
 body.seite-eintrag,
 body.seite-landing {
-  max-width: 72rem;
+  max-width: 46rem;
+}
+
+header {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
 }
 
 header h1 {
-  margin-bottom: 0.25rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: clamp(2.4rem, 7vw, 3.4rem);
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.01em;
 }
 
-/* Alphabetische Wortliste auf der Landingpage */
+header p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.doppelregel {
+  border-top: 1px solid var(--ink);
+  border-bottom: 3px solid var(--ink);
+  height: 4px;
+  margin: 1.4rem 0 0;
+}
+
+/* Alphabetisches Register auf der Landingpage */
 .wort-az {
-  margin: 2rem 0 3rem;
+  margin: 2.5rem 0 3rem;
+}
+
+.wort-az h2 {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 0.9rem;
 }
 
 .wort-az ul {
@@ -35,37 +80,16 @@ header h1 {
 .wort-az li {
   break-inside: avoid;
   margin: 0.2rem 0;
+  font-family: 'Fraunces', serif;
 }
 
 .wort-az a {
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
-}
-
-.wort-az a:hover {
-  text-decoration-thickness: 2px;
-}
-
-.wort-uebersicht .wort-eintrag {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid #ddd;
-}
-
-.wort-uebersicht .wort-eintrag:first-child {
-  border-top: none;
-  padding-top: 0;
-}
-
-.wort-uebersicht .wort-titel a {
-  color: inherit;
+  color: var(--ink);
   text-decoration: none;
 }
 
-.wort-uebersicht .wort-titel a:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
+.wort-az a:hover {
+  color: var(--akzent);
 }
 
 @media (min-width: 900px) {
@@ -74,20 +98,64 @@ header h1 {
   }
 }
 
-/* Eintrag: Überschrift, dann Bild + Text nebeneinander (Desktop) */
+/* Trennregel zwischen Einträgen in der Übersicht */
+.trennregel {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 3rem 0 2.25rem;
+  position: relative;
+}
+
+.trennregel::after {
+  content: "\00a7";
+  position: absolute;
+  top: -0.7em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--paper);
+  padding: 0 0.6em;
+  color: var(--rule);
+  font-size: 0.9rem;
+}
+
+/* Eintrag: Kopfzeile, dann Bild + Text nebeneinander (Desktop) */
 .wort-eintrag {
   margin-top: 1.5rem;
 }
 
+.wort-kopf {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 0 0 1.25rem;
+}
+
 .wort-titel {
-  margin: 0 0 1.5rem;
-  font-size: clamp(2rem, 5vw, 2.75rem);
-  line-height: 1.2;
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: clamp(1.9rem, 5vw, 2.4rem);
+  margin: 0;
+}
+
+.wort-titel a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wort-titel a:hover {
+  color: var(--akzent);
+}
+
+.wort-nr {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  font-variant-numeric: oldstyle-nums;
 }
 
 .wort-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
   gap: 2rem;
   align-items: start;
 }
@@ -100,25 +168,67 @@ header h1 {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 0.25rem;
+  border: 1px solid var(--rule);
+}
+
+.wort-bild figcaption {
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  margin-top: 0.4rem;
+  font-style: italic;
 }
 
 .wort-text > :first-child {
   margin-top: 0;
 }
 
-/* Mobile: Bild unter Überschrift, vor dem Text */
+.wort-text h3 {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--akzent);
+  margin: 1.1rem 0 0.3rem;
+  font-weight: 600;
+}
+
+.wort-text p {
+  margin: 0 0 0.6rem;
+}
+
+.wort-text strong {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* Tafel-Platzhalter für Einträge ohne Illustration */
+.tafel-platzhalter {
+  aspect-ratio: 3 / 4;
+  border: 1px solid var(--rule);
+  background: repeating-linear-gradient(45deg, transparent 0 7px, var(--rule) 7px 8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.tafel-platzhalter span {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  background: var(--paper);
+  padding: 0.3rem 0.6rem;
+}
+
+/* Mobile: Bild unter Kopfzeile, vor dem Text */
 @media (max-width: 768px) {
   .wort-layout {
     grid-template-columns: 1fr;
   }
 
-  .wort-bild {
-    order: 1;
-  }
-
-  .wort-text {
-    order: 2;
+  .wort-az ul {
+    columns: 2;
   }
 }
 
@@ -129,6 +239,7 @@ header h1 {
 
 .buch-export .buch-titel {
   margin: 2rem 0 1rem;
+  font-family: 'Fraunces', serif;
 }
 
 .buch-export .buch-spread {
