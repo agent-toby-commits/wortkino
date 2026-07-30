@@ -1,6 +1,6 @@
 ---
 begriff: Unheil
-bild: unheil.webp
+bild: unheil.png
 ---
 
 # Unheil

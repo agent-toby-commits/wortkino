@@ -66,7 +66,7 @@ Bitte 3 alternative Kompositionen in genau diesem Stil:
 
 ## 4. Nach der Generierung
 
-1. Bestes Ergebnis auswählen, als `.webp` exportieren
-2. In `content/woerter/{slug}.webp` ablegen
+1. Bestes Ergebnis auswählen, als `.png` exportieren
+2. In `content/woerter/{slug}.png` ablegen
 3. Dateiname in der Frontmatter des Eintrags unter `bild:` prüfen/eintragen
 4. `python scripts/validate_content.py` laufen lassen

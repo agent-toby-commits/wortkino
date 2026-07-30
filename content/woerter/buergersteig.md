@@ -1,6 +1,6 @@
 ---
 begriff: Bürgersteig
-bild: buergersteig.webp
+bild: buergersteig.png
 ---
 
 # Bürgersteig

@@ -1,6 +1,6 @@
 ---
 begriff: Brustwarze
-bild: brustwarze.webp
+bild: brustwarze.png
 ---
 
 # Brustwarze

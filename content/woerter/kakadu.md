@@ -1,6 +1,6 @@
 ---
 begriff: Kakadu
-bild: kakadu.webp
+bild: kakadu.png
 ---
 
 # Kakadu
@@ -11,10 +11,16 @@ bild: kakadu.webp
 
 ## Beispiel
 
-*„Im Zoo krähte der Kakadu laut über den Platz.“*
+*„Der Kakadu hat ein Ei gelegt!“*
 
 ## Bild im Kopf
 
-**Kakadu** klingt fast wie **Kack du** — und wörtlich sitzt der Vogel auf der Schulter eines Zoobesuchers und kommentiert jede Szene mit kritischem Blick, als müsste er ständig etwas anmerken.
+Wer ein Kleinkind hat, kennt es: Du **Kacka** du! Phonetisch deutlich näher am Lieblingswort der analen Phase, als der  verwandte **Kack**tus oder die **Kack*erlake
 
-Der Federbusch ist ein Alarmsystem. Der Schnabel ein Megafon. Der Kakadu hat die Lautstärke. Der Mensch die Schuld — zumindest hört es sich so an.
+Wie alle Vögel scheiden Kakadus Kot und Harn gemeinsam aus. Deshalb besteht der etwa haselnussgroße Haufen aus drei Teilen:
+
+dunkler Anteil = eigentlicher Kot
+weißer Anteil = Harnsäure (nicht Harnstoff wie beim Menschen)
+klarer Anteil = etwas Flüssigkeit
+
+Ein gesunder Kakadu setzt oft alle 15–30 Minuten Kot ab und macht damit seinem Namen alle Ehre.

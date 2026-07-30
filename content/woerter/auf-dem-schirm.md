@@ -1,6 +1,6 @@
 ---
 begriff: auf dem Schirm haben
-bild: auf-dem-schirm.webp
+bild: auf-dem-schirm.png
 ---
 
 # auf dem Schirm haben

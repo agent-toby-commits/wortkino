@@ -1,6 +1,6 @@
 ---
 begriff: Achsel
-bild: achsel.webp
+bild: achsel.png
 ---
 
 # Achsel

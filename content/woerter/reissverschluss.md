@@ -1,6 +1,6 @@
 ---
 begriff: Reißverschluss
-bild: reissverschluss.webp
+bild: reissverschluss.png
 ---
 
 # Reißverschluss

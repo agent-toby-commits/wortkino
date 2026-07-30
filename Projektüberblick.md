@@ -4,7 +4,7 @@
 Lexikon komischer deutscher Wörter: Begriffe, die beim wörtlichen Lesen absurde Bilder erzeugen. Kein Kalauer – konsequentes, trocken-ernsthaftes Wörtlichnehmen der Sprache ("Wortkino nimmt die deutsche Sprache beim Wort"). Ziele: Website (Browsen, Chatbot, User-Vorschläge) und späterer Buch-Export aus demselben Content-Bestand.
 
 ## Struktur
-- `content/woerter/*.md` – Lexikoneinträge (21 Stück aktuell), je mit passendem `.webp`-Bild
+- `content/woerter/*.md` – Lexikoneinträge (21 Stück aktuell), je mit passendem `.png`-Bild
 - `content/schema.yaml` – verbindliches Schema für Einträge
 - `docs/redaktionsregeln.md` – Redaktionsregeln inkl. Stilvorgaben und Vorlage
 - `backend/main.py` – FastAPI-Backend, rendert Einträge dynamisch aus Markdown
@@ -14,7 +14,7 @@ Lexikon komischer deutscher Wörter: Begriffe, die beim wörtlichen Lesen absurd
 - `.venv/`, `requirements.txt` – Python-Setup (FastAPI, python-frontmatter, markdown, pyyaml)
 
 ## Eintrags-Schema (Pflicht)
-Frontmatter: `begriff`, `bild` (Dateiname, .webp/.png, liegt in `content/woerter/`)
+Frontmatter: `begriff`, `bild` (Dateiname, `.png`, liegt in `content/woerter/`)
 
 Body, in dieser Reihenfolge:
 1. `# Begriff` – muss exakt zu `begriff:` passen

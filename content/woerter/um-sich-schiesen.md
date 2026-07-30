@@ -1,6 +1,6 @@
 ---
 begriff: um sich schießen
-bild: um-sich-schiesen.webp
+bild: um-sich-schiesen.png
 ---
 
 # um sich schießen

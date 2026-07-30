@@ -1,6 +1,6 @@
 ---
 begriff: Leitfaden
-bild: leitfaden.webp
+bild: leitfaden.png
 ---
 
 # Leitfaden

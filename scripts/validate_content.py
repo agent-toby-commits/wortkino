@@ -65,9 +65,14 @@ def validate_entry(path: Path, schema: dict) -> list[str]:
             errors.append(f"{path.name}: Abschnitt '## {section}' fehlt")
 
     if meta.get("bild"):
-        image_path = CONTENT_DIR / str(meta["bild"]).strip()
+        bild = str(meta["bild"]).strip()
+        allowed = schema.get("image_convention", {}).get("allowed_extensions", ["png"])
+        ext = Path(bild).suffix.lstrip(".").lower()
+        if ext not in allowed:
+            errors.append(f"{path.name}: Bild muss {', '.join('.' + e for e in allowed)} sein ({bild})")
+        image_path = CONTENT_DIR / bild
         if not image_path.exists():
-            errors.append(f"{path.name}: Bild fehlt ({meta['bild']})")
+            errors.append(f"{path.name}: Bild fehlt ({bild})")
 
     return errors
 

@@ -1,6 +1,6 @@
 ---
 begriff: Eichel
-bild: eichel.webp
+bild: eichel.png
 ---
 
 # Eichel

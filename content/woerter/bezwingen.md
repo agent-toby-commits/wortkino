@@ -1,6 +1,6 @@
 ---
 begriff: bezwingen
-bild: bezwingen.webp
+bild: bezwingen.png
 ---
 
 # bezwingen

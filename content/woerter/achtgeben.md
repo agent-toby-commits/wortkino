@@ -1,6 +1,6 @@
 ---
 begriff: achtgeben
-bild: achtgeben.webp
+bild: achtgeben.png
 ---
 
 # achtgeben

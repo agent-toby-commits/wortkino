@@ -9,7 +9,7 @@ Jeder Lexikoneintrag besteht aus **YAML-Frontmatter** und **vier Markdown-Angabe
 | Feld | Inhalt |
 |---|---|
 | `begriff` | Der Begriff (wie in der Hauptüberschrift) |
-| `bild` | Dateiname der Illustration (z. B. `bezwingen.webp`) |
+| `bild` | Dateiname der Illustration (z. B. `bezwingen.png`) |
 
 **Body:**
 
@@ -33,7 +33,7 @@ Jeder Eintrag hat **immer ein zugehöriges Bild** — referenziert im Frontmatte
 ```markdown
 ---
 begriff: bezwingen
-bild: bezwingen.webp
+bild: bezwingen.png
 ---
 
 # bezwingen

@@ -27,6 +27,7 @@ body_section_format:
 
 image_convention:
   location: content/woerter/
+  default_extension: png
   allowed_extensions:
-    - webp
     - png
+  naming: "{slug}.png"

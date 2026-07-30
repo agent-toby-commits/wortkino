@@ -1,6 +1,6 @@
 ---
 begriff: Lead
-bild: lead.webp
+bild: lead.png
 ---
 
 # Lead

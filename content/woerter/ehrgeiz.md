@@ -1,6 +1,6 @@
 ---
 begriff: Ehrgeiz
-bild: ehrgeiz.webp
+bild: ehrgeiz.png
 ---
 
 # Ehrgeiz

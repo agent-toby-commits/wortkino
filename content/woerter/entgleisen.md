@@ -1,6 +1,6 @@
 ---
 begriff: entgleisen
-bild: entgleisen.webp
+bild: entgleisen.png
 ---
 
 # entgleisen

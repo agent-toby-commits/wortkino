@@ -1,6 +1,6 @@
 ---
 begriff: etwas stemmen
-bild: etwas-stemmen.webp
+bild: etwas-stemmen.png
 ---
 
 # etwas stemmen

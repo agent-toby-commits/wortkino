@@ -1,6 +1,6 @@
 ---
 begriff: penetrieren
-bild: penetrieren.webp
+bild: penetrieren.png
 ---
 
 # penetrieren

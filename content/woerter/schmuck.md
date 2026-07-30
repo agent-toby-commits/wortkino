@@ -1,6 +1,6 @@
 ---
 begriff: Schmuck
-bild: schmuck.webp
+bild: schmuck.png
 ---
 
 # Schmuck

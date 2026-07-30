@@ -1,6 +1,6 @@
 ---
 begriff: Po
-bild: po.webp
+bild: po.png
 ---
 
 # Po

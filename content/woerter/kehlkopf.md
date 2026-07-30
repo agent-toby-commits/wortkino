@@ -1,6 +1,6 @@
 ---
 begriff: Kehlkopf
-bild: kehlkopf.webp
+bild: kehlkopf.png
 ---
 
 # Kehlkopf

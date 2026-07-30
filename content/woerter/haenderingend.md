@@ -1,6 +1,6 @@
 ---
 begriff: händeringend
-bild: haenderingend.webp
+bild: haenderingend.png
 ---
 
 # händeringend
