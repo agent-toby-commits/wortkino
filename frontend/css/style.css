@@ -132,7 +132,7 @@ header p,
 .autor-portrait img {
   display: block;
   width: 100%;
-  max-width: 16rem;
+  max-width: none;
   height: auto;
   aspect-ratio: 3 / 4;
   object-fit: cover;
@@ -153,7 +153,7 @@ header p,
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 16rem;
+  max-width: none;
   aspect-ratio: 3 / 4;
   background: linear-gradient(160deg, #ebe4d8, #d8d0c2);
   color: var(--ink-soft);
@@ -186,6 +186,155 @@ header p,
   aspect-ratio: 3 / 4;
 }
 
+/* Rezensionen über Lexikon-Kulisse */
+.buch-rezensionen-stage {
+  position: relative;
+  margin: 0.35rem 0 1.5rem;
+  padding: 0.85rem 0 2.5rem;
+  min-height: 28rem;
+  overflow: hidden;
+}
+
+/* Durchgehender Papier-Wash über die ganze Bühne */
+.buch-rezensionen-stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: color-mix(in srgb, var(--paper) 70%, transparent);
+}
+
+/* Weicher Übergang zurück zur Seite */
+.buch-rezensionen-stage::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5rem;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    color-mix(in srgb, var(--paper) 55%, transparent) 45%,
+    var(--paper)
+  );
+}
+
+.buch-cover--backdrop {
+  position: absolute;
+  inset: 0;
+  left: 50%;
+  width: min(100%, 36rem);
+  height: 100%;
+  margin: 0;
+  transform: translateX(-50%);
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.42;
+  filter: saturate(0.88);
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.buch-cover--backdrop img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center top;
+  box-shadow: none;
+}
+
+.buch-cover--backdrop .buch-cover-platzhalter {
+  max-width: none;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+
+.buch-cover--backdrop figcaption {
+  display: none;
+}
+
+.buch-rezensionen {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 1rem 1rem 1.75rem;
+  box-sizing: border-box;
+  background: none;
+}
+
+.buch-rezensionen > *:first-child {
+  margin-top: 0;
+}
+
+.buch-rezensionen blockquote {
+  position: relative;
+  max-width: 36rem;
+  margin: 0 auto 1.65rem;
+  padding: 0;
+  border: none;
+  border-bottom: none;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: clamp(1.05rem, 2.4vw, 1.2rem);
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.buch-rezensionen blockquote:first-of-type::before {
+  content: "„";
+  position: absolute;
+  top: -0.35em;
+  left: -0.05em;
+  font-size: 3.2rem;
+  line-height: 1;
+  color: color-mix(in srgb, var(--akzent) 28%, transparent);
+  font-style: normal;
+  pointer-events: none;
+}
+
+.buch-rezensionen blockquote:last-of-type {
+  margin-bottom: 0;
+}
+
+.buch-rezensionen blockquote p {
+  margin: 0 0 0.5rem;
+}
+
+.buch-rezensionen blockquote p:last-child {
+  margin: 0;
+  font-family: 'Source Sans 3', sans-serif;
+  font-style: normal;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+@media (max-width: 719px) {
+  .buch-rezensionen-stage {
+    min-height: 24rem;
+    padding: 0.7rem 0 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .buch-cover--backdrop {
+    width: min(100%, 26rem);
+    opacity: 0.38;
+  }
+
+  .buch-rezensionen {
+    padding: 0.85rem 0.75rem 1.4rem;
+  }
+}
+
 @media (min-width: 720px) {
   .autor-layout {
     flex-direction: row;
@@ -194,12 +343,22 @@ header p,
   }
 
   .autor-portrait {
-    flex: 0 0 11.5rem;
+    flex: 0 0 14.5rem;
   }
 
   .autor-portrait img,
   .autor-portrait-platzhalter {
     max-width: none;
+  }
+
+  .buch-rezensionen-stage {
+    min-height: 32rem;
+    padding: 1rem 0 2.75rem;
+  }
+
+  .buch-cover--backdrop {
+    width: min(100%, 38rem);
+    opacity: 0.45;
   }
 }
 
@@ -212,6 +371,18 @@ header p,
   font-size: 1.15rem;
   line-height: 1.55;
   color: var(--ink);
+}
+
+.ueber-inhalt .buch-rezensionen blockquote {
+  margin: 0 auto 1.65rem;
+  padding: 0;
+  border: none;
+  border-bottom: none;
+}
+
+.ueber-inhalt .buch-rezensionen blockquote:last-of-type {
+  margin-bottom: 0;
+  border-bottom: none;
 }
 
 .ueber-inhalt blockquote:last-of-type {

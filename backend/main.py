@@ -29,8 +29,22 @@ SITE_DESCRIPTION = (
 )
 AUTHOR_NAME = "Tobias Lampe"
 AUTHOR_CITY = "Berlin"
-AUTHOR_PORTRAIT = ASSETS_DIR / "autor-portrait.png"
-BOOK_COVER = ASSETS_DIR / "buch-wortwoertlich.png"
+AUTHOR_PORTRAIT_NAME = "autor-portrait.png"
+BOOK_COVER_NAME = "buch-wortwoertlich.png"
+
+
+def resolve_asset(filename: str) -> Path | None:
+    """Finde Asset case-insensitive (macOS lokal vs. Linux in Produktion)."""
+    target = ASSETS_DIR / filename
+    if target.exists():
+        return target
+    wanted = filename.casefold()
+    if not ASSETS_DIR.is_dir():
+        return None
+    for path in ASSETS_DIR.iterdir():
+        if path.is_file() and path.name.casefold() == wanted:
+            return path
+    return None
 
 H1_LINE_PATTERN = re.compile(r"^# (.+?):?\s*$", re.MULTILINE)
 BEDEUTUNG_PATTERN = re.compile(
@@ -148,12 +162,18 @@ def parse_h2_sections(md: str) -> list[tuple[str, str]]:
     return sections
 
 
+def asset_url(path: Path) -> str:
+    return f"/assets/{path.name}"
+
+
 def render_autor_portrait() -> str:
     caption = html.escape(f"{AUTHOR_NAME}, {AUTHOR_CITY}")
-    if AUTHOR_PORTRAIT.exists():
+    portrait = resolve_asset(AUTHOR_PORTRAIT_NAME)
+    if portrait is not None:
+        src = html.escape(asset_url(portrait), quote=True)
         return (
             f'<figure class="autor-portrait">'
-            f'<img src="/assets/autor-portrait.png" '
+            f'<img src="{src}" '
             f'alt="Porträtfoto von {html.escape(AUTHOR_NAME)} aus {html.escape(AUTHOR_CITY)}" '
             f'width="480" height="640" loading="eager">'
             f"<figcaption>{caption}</figcaption>"
@@ -169,22 +189,31 @@ def render_autor_portrait() -> str:
     )
 
 
-def render_buch_cover() -> str:
+def render_buch_cover(*, as_backdrop: bool = False) -> str:
     alt = (
         "Fotorealistische Abbildung des Lexikons "
         "wortwörtlich – das Lexikon der wundersamen Wörter"
     )
-    if BOOK_COVER.exists():
+    classes = "buch-cover buch-cover--backdrop" if as_backdrop else "buch-cover"
+    aria = ' aria-hidden="true"' if as_backdrop else ""
+    cover = resolve_asset(BOOK_COVER_NAME)
+    if cover is not None:
+        src = html.escape(asset_url(cover), quote=True)
+        caption = (
+            ""
+            if as_backdrop
+            else "<figcaption>wortwörtlich – das Lexikon der wundersamen Wörter</figcaption>"
+        )
         return (
-            f'<figure class="buch-cover">'
-            f'<img src="/assets/buch-wortwoertlich.png" '
+            f'<figure class="{classes}"{aria}>'
+            f'<img src="{src}" '
             f'alt="{html.escape(alt, quote=True)}" '
             f'width="900" height="1200" loading="lazy">'
-            f"<figcaption>wortwörtlich – das Lexikon der wundersamen Wörter</figcaption>"
+            f"{caption}"
             f"</figure>"
         )
     return (
-        '<figure class="buch-cover is-placeholder">'
+        f'<figure class="{classes} is-placeholder"{aria}>'
         '<div class="buch-cover-platzhalter" aria-hidden="true">'
         "<span>Buchabbildung folgt</span>"
         "</div>"
@@ -192,12 +221,24 @@ def render_buch_cover() -> str:
     )
 
 
+def render_rezensionen_html(body_md: str) -> str:
+    """Render Rezensionen als separate blockquotes (Markdown merged sie sonst)."""
+    blocks = re.split(r"\n(?:[ \t]*\n)+", body_md.strip())
+    parts: list[str] = []
+    for block in blocks:
+        block = block.strip()
+        if not block:
+            continue
+        parts.append(markdown.markdown(block, extensions=["extra"]))
+    return "\n".join(parts)
+
+
 def render_ueber_body(content_md: str) -> str:
     blocks: list[str] = []
     for title, body_md in parse_h2_sections(content_md):
-        body_html = markdown.markdown(body_md, extensions=["extra"])
         title_esc = html.escape(title)
         if title.casefold().startswith("über den autor"):
+            body_html = markdown.markdown(body_md, extensions=["extra"])
             blocks.append(
                 f'<section class="ueber-autor" aria-labelledby="ueber-autor-heading">'
                 f'<h2 id="ueber-autor-heading">{title_esc}</h2>'
@@ -208,14 +249,18 @@ def render_ueber_body(content_md: str) -> str:
                 f"</section>"
             )
         elif "wortwörtlich" in title.casefold():
+            rezensionen_html = render_rezensionen_html(body_md)
             blocks.append(
                 f'<section class="ueber-buch" aria-labelledby="ueber-buch-heading">'
                 f'<h2 id="ueber-buch-heading">{title_esc}</h2>'
-                f"{render_buch_cover()}"
-                f'<div class="buch-text">{body_html}</div>'
+                f'<div class="buch-rezensionen-stage">'
+                f"{render_buch_cover(as_backdrop=True)}"
+                f'<div class="buch-rezensionen">{rezensionen_html}</div>'
+                f"</div>"
                 f"</section>"
             )
         else:
+            body_html = markdown.markdown(body_md, extensions=["extra"])
             blocks.append(
                 f"<section>"
                 f"<h2>{title_esc}</h2>"
@@ -560,14 +605,13 @@ def ueber():
             "name": "wortwörtlich – das Lexikon der wundersamen Wörter",
         },
     }
-    if AUTHOR_PORTRAIT.exists():
-        person["image"] = absolute_url("/assets/autor-portrait.png")
+    portrait = resolve_asset(AUTHOR_PORTRAIT_NAME)
+    cover = resolve_asset(BOOK_COVER_NAME)
 
-    book_image = (
-        absolute_url("/assets/buch-wortwoertlich.png")
-        if BOOK_COVER.exists()
-        else None
-    )
+    if portrait is not None:
+        person["image"] = absolute_url(asset_url(portrait))
+
+    book_image = absolute_url(asset_url(cover)) if cover is not None else None
     book_ld: dict = {
         "@type": "Book",
         "name": "wortwörtlich – das Lexikon der wundersamen Wörter",
@@ -603,11 +647,12 @@ def ueber():
         {"@context": "https://schema.org", **book_ld},
     ]
 
-    og_image = (
-        "/assets/autor-portrait.png"
-        if AUTHOR_PORTRAIT.exists()
-        else ("/assets/buch-wortwoertlich.png" if BOOK_COVER.exists() else None)
-    )
+    if portrait is not None:
+        og_image = asset_url(portrait)
+    elif cover is not None:
+        og_image = asset_url(cover)
+    else:
+        og_image = None
 
     head = render_head(
         title=f"{page_title} | {SITE_NAME}",

@@ -15,7 +15,7 @@ Wortwört ist die erste laufende Sammlung dieser Art, bekannt aus Instragram, Ti
 >
 > — *Die Zeit der Wörter*
 
-> „Habe vor Lachen das Bäffchen verschluckt. Ein Werk von nationaler Bedeutung, ein Meilenstein für unseren Sprachkontan“
+> „Habe vor Lachen das Bäffchen verschluckt. Ein Werk von nationaler Bedeutung, ein Meilenstein für unseren Sprachkanon"
 >
 > — *Fiktive Literaturbeilage*
 
