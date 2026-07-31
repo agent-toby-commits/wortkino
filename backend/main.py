@@ -16,7 +16,9 @@ import frontmatter
 import markdown
 
 CONTENT_DIR = Path(__file__).resolve().parent.parent / "content" / "woerter"
+CONTENT_ROOT = Path(__file__).resolve().parent.parent / "content"
 FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
+ASSETS_DIR = FRONTEND_DIR / "assets"
 
 SITE_URL = os.environ.get("SITE_URL", "https://wortwoert.de").rstrip("/")
 SITE_NAME = "Wortwört"
@@ -25,6 +27,10 @@ SITE_DESCRIPTION = (
     "Wortwört ist das Lexikon der merkwürdigen Begriffe: "
     "deutsche Wörter, die wörtlich genommen überraschende Bilder erzeugen."
 )
+AUTHOR_NAME = "Tobias Lampe"
+AUTHOR_CITY = "Berlin"
+AUTHOR_PORTRAIT = ASSETS_DIR / "autor-portrait.png"
+BOOK_COVER = ASSETS_DIR / "buch-wortwoertlich.png"
 
 H1_LINE_PATTERN = re.compile(r"^# (.+?):?\s*$", re.MULTILINE)
 BEDEUTUNG_PATTERN = re.compile(
@@ -110,6 +116,113 @@ def absolute_url(path: str) -> str:
     if path.startswith("http://") or path.startswith("https://"):
         return path
     return f"{SITE_URL}{path if path.startswith('/') else '/' + path}"
+
+
+def render_site_header(*, link_home: bool = False) -> str:
+    """Gemeinsamer Lexikon-Header (Marke, Untertitel, Doppelregel, Meta-Nav)."""
+    name = html.escape(SITE_NAME)
+    tagline = html.escape(SITE_TAGLINE)
+    if link_home:
+        title_html = f'<h1><a href="/">{name}</a></h1>'
+    else:
+        title_html = f"<h1>{name}</h1>"
+    return f"""  <header class="site-header">
+    {title_html}
+    <p>{tagline}</p>
+    <div class="doppelregel" aria-hidden="true"></div>
+    <nav class="site-meta-nav" aria-label="Über Wortwört">
+      <a href="/ueber">Über den Autor · Das Buch</a>
+    </nav>
+  </header>"""
+
+
+def parse_h2_sections(md: str) -> list[tuple[str, str]]:
+    pattern = re.compile(r"^## (.+)$", re.MULTILINE)
+    matches = list(pattern.finditer(md))
+    sections: list[tuple[str, str]] = []
+    for i, match in enumerate(matches):
+        title = match.group(1).strip()
+        start = match.end()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(md)
+        sections.append((title, md[start:end].strip()))
+    return sections
+
+
+def render_autor_portrait() -> str:
+    caption = html.escape(f"{AUTHOR_NAME}, {AUTHOR_CITY}")
+    if AUTHOR_PORTRAIT.exists():
+        return (
+            f'<figure class="autor-portrait">'
+            f'<img src="/assets/autor-portrait.png" '
+            f'alt="Porträtfoto von {html.escape(AUTHOR_NAME)} aus {html.escape(AUTHOR_CITY)}" '
+            f'width="480" height="640" loading="eager">'
+            f"<figcaption>{caption}</figcaption>"
+            f"</figure>"
+        )
+    return (
+        '<figure class="autor-portrait is-placeholder">'
+        '<div class="autor-portrait-platzhalter" aria-hidden="true">'
+        "<span>Porträt folgt</span>"
+        "</div>"
+        f"<figcaption>{caption}</figcaption>"
+        "</figure>"
+    )
+
+
+def render_buch_cover() -> str:
+    alt = (
+        "Fotorealistische Abbildung des Lexikons "
+        "wortwörtlich – das Lexikon der wundersamen Wörter"
+    )
+    if BOOK_COVER.exists():
+        return (
+            f'<figure class="buch-cover">'
+            f'<img src="/assets/buch-wortwoertlich.png" '
+            f'alt="{html.escape(alt, quote=True)}" '
+            f'width="900" height="1200" loading="lazy">'
+            f"<figcaption>wortwörtlich – das Lexikon der wundersamen Wörter</figcaption>"
+            f"</figure>"
+        )
+    return (
+        '<figure class="buch-cover is-placeholder">'
+        '<div class="buch-cover-platzhalter" aria-hidden="true">'
+        "<span>Buchabbildung folgt</span>"
+        "</div>"
+        "</figure>"
+    )
+
+
+def render_ueber_body(content_md: str) -> str:
+    blocks: list[str] = []
+    for title, body_md in parse_h2_sections(content_md):
+        body_html = markdown.markdown(body_md, extensions=["extra"])
+        title_esc = html.escape(title)
+        if title.casefold().startswith("über den autor"):
+            blocks.append(
+                f'<section class="ueber-autor" aria-labelledby="ueber-autor-heading">'
+                f'<h2 id="ueber-autor-heading">{title_esc}</h2>'
+                f'<div class="autor-layout">'
+                f"{render_autor_portrait()}"
+                f'<div class="autor-text">{body_html}</div>'
+                f"</div>"
+                f"</section>"
+            )
+        elif "wortwörtlich" in title.casefold():
+            blocks.append(
+                f'<section class="ueber-buch" aria-labelledby="ueber-buch-heading">'
+                f'<h2 id="ueber-buch-heading">{title_esc}</h2>'
+                f"{render_buch_cover()}"
+                f'<div class="buch-text">{body_html}</div>'
+                f"</section>"
+            )
+        else:
+            blocks.append(
+                f"<section>"
+                f"<h2>{title_esc}</h2>"
+                f"{body_html}"
+                f"</section>"
+            )
+    return "\n".join(blocks)
 
 
 def render_head(
@@ -345,11 +458,12 @@ def index():
         json_ld=json_ld,
     )
 
-    html = index_path.read_text(encoding="utf-8")
-    html = html.replace("<!--SEO_HEAD-->", head)
-    html = html.replace("<!--WORT_AZ-->", az_nav)
-    html = html.replace("<!--WORT_UEBERSICHT-->", overview)
-    return html
+    page = index_path.read_text(encoding="utf-8")
+    page = page.replace("<!--SEO_HEAD-->", head)
+    page = page.replace("<!--SITE_HEADER-->", render_site_header(link_home=False))
+    page = page.replace("<!--WORT_AZ-->", az_nav)
+    page = page.replace("<!--WORT_UEBERSICHT-->", overview)
+    return page
 
 
 @app.get("/woerter/{slug}", response_class=HTMLResponse)
@@ -395,11 +509,131 @@ def wort_detail(slug: str):
 {head}
 </head>
 <body class="seite-eintrag">
-  <header><a href="/">{html.escape(SITE_NAME)}</a></header>
+{render_site_header(link_home=True)}
   <main>
     {nav}
     {entry_html}
     {nav}
+  </main>
+  <footer class="site-footer">
+    <a href="/ueber">Über den Autor · Das Buch</a>
+  </footer>
+</body>
+</html>"""
+
+
+@app.get("/ueber", response_class=HTMLResponse)
+def ueber():
+    path = CONTENT_ROOT / "ueber.md"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Seite nicht gefunden")
+
+    post = frontmatter.load(path)
+    default_title = f"{AUTHOR_NAME} {AUTHOR_CITY} – Autor von {SITE_NAME}"
+    default_description = (
+        f"{AUTHOR_NAME} aus {AUTHOR_CITY} ist Autor von {SITE_NAME}, "
+        f"dem {SITE_TAGLINE.lower()}, und des Buchprojekts "
+        "wortwörtlich – das Lexikon der wundersamen Wörter."
+    )
+    page_title = str(post.get("title", default_title))
+    description = str(post.get("description", default_description))
+    body_html = render_ueber_body(post.content)
+
+    person: dict = {
+        "@type": "Person",
+        "name": AUTHOR_NAME,
+        "jobTitle": "Autor",
+        "url": absolute_url("/ueber"),
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": AUTHOR_CITY,
+            "addressCountry": "DE",
+        },
+        "knowsAbout": [
+            "deutsche Sprache",
+            "Lexikon",
+            "Wortwört",
+            "Humor",
+        ],
+        "author": {
+            "@type": "CreativeWork",
+            "name": "wortwörtlich – das Lexikon der wundersamen Wörter",
+        },
+    }
+    if AUTHOR_PORTRAIT.exists():
+        person["image"] = absolute_url("/assets/autor-portrait.png")
+
+    book_image = (
+        absolute_url("/assets/buch-wortwoertlich.png")
+        if BOOK_COVER.exists()
+        else None
+    )
+    book_ld: dict = {
+        "@type": "Book",
+        "name": "wortwörtlich – das Lexikon der wundersamen Wörter",
+        "author": {"@type": "Person", "name": AUTHOR_NAME},
+        "inLanguage": "de",
+        "description": (
+            "Das Buch zum Lexikon Wortwört: merkwürdige Begriffe, "
+            "wörtlich genommen."
+        ),
+    }
+    if book_image:
+        book_ld["image"] = book_image
+
+    json_ld = [
+        {
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "name": page_title,
+            "url": absolute_url("/ueber"),
+            "description": description,
+            "inLanguage": "de",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": SITE_NAME,
+                "url": SITE_URL,
+            },
+            "mainEntity": person,
+            "about": [
+                {"@type": "Person", "name": AUTHOR_NAME},
+                {"@type": "Place", "name": AUTHOR_CITY},
+            ],
+        },
+        {"@context": "https://schema.org", **book_ld},
+    ]
+
+    og_image = (
+        "/assets/autor-portrait.png"
+        if AUTHOR_PORTRAIT.exists()
+        else ("/assets/buch-wortwoertlich.png" if BOOK_COVER.exists() else None)
+    )
+
+    head = render_head(
+        title=f"{page_title} | {SITE_NAME}",
+        description=description,
+        canonical_path="/ueber",
+        og_type="profile",
+        image_path=og_image,
+        json_ld=json_ld,
+    )
+    # Extra local SEO hints for Tobias Lampe Berlin
+    head += (
+        f'\n  <meta name="author" content="{html.escape(AUTHOR_NAME, quote=True)}">'
+        f'\n  <meta name="geo.placename" content="{html.escape(AUTHOR_CITY, quote=True)}">'
+        f'\n  <meta name="geo.region" content="DE-BE">'
+    )
+
+    return f"""<!DOCTYPE html>
+<html lang="de">
+<head>
+{head}
+</head>
+<body class="seite-ueber">
+{render_site_header(link_home=True)}
+  <main class="ueber-inhalt">
+    {body_html}
+    <p class="ueber-cta"><a href="/">Zum Register A–Z</a></p>
   </main>
 </body>
 </html>"""
@@ -418,7 +652,8 @@ def robots_txt():
 def sitemap_xml():
     entries = list_entries()
     urls = [
-        f"  <url><loc>{xml_escape(absolute_url('/'))}</loc><changefreq>weekly</changefreq></url>"
+        f"  <url><loc>{xml_escape(absolute_url('/'))}</loc><changefreq>weekly</changefreq></url>",
+        f"  <url><loc>{xml_escape(absolute_url('/ueber'))}</loc><changefreq>monthly</changefreq></url>",
     ]
     for entry in entries:
         loc = absolute_url(f"/woerter/{entry['slug']}")
