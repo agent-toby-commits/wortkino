@@ -15,7 +15,8 @@ bild: leitfaden.png
 
 ## Bild im Kopf
 
-**Leitfaden** ist, wörtlich genommen, tatsächlich ein Faden, der leitet — eine Schnur, die man sich am besten fest um die Faust wickelt, bevor man sich in ein Labyrinth aus Bedienungsanleitungen, Formularen und Regeln begibt.
+**Leitfaden** ist, wörtlich genommen, tatsächlich ein Faden, der leitet — eine Schnur, die man sich besser fest um die Faust wickelt, bevor man ein Labyrinth aus Bedienungsanleitungen, Formularen und Regeln betritt.
 
-Beim Vortasten durch dieses Labyrinth stellt das Abrollen des Fadens sicher, dass man auch wieder zuruckfindet. Doch reisst dieser auf dem Weg unbemerkt, steht der Suchende plötzlich allein im Dunkeln zwischen zwei Absätzen.
+Das Bild erinnert nicht zufällig an Ariadne: Ihr Faden half Theseus, nach dem Kampf mit dem Minotaurus wieder aus dem Labyrinth zu finden. Ein heutiger Leitfaden verspricht im Grunde dasselbe, nur lauert hinter Abschnitt 4.2 meist kein Stiermensch, sondern eine Regelung zu Dienstreisen. Eine *Fibel* für Fortgeschrittene.
 
+Da kommen wir doch lieber wieder zum deutlich spannenderen Bild des Labyriinths zurück: hier rollt man beim Vortasten den Faden ab und findet so zwar nicht unbedingt den Ausgang, aber zumindest wieder zum Eingang zurück. Es sei denn, es reißt einem der *Gedulsfaden* und man zieht zu flott am *Leitfaden* - dann reißt auch der, und man steht plötzlich zwischen zwei losen Enden im Dunkeln.

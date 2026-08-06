@@ -7,7 +7,7 @@ bild: gugelhupf.png
 
 ## Bedeutung
 
-*Ein ringförmiger Rührkuchen mit charakteristischer Riffelform, gebacken in einer speziellen Gugelhupfform.*
+*Ein ringförmiger Rührkuchen mit charakteristischer Riffelform.*
 
 ## Beispiel
 
@@ -15,8 +15,8 @@ bild: gugelhupf.png
 
 ## Bild im Kopf
 
-**Gugelhupf** zerfällt wörtlich in **Gugel** — eine mittelalterliche Kapuze — und **Hupf**, das Hüpfen. Ein Kuchen also, der nichts anderes ist als eine hüpfende Kapuze, die sich zufällig in Kuchenform verwandelt hat und nun geduldig auf dem Kaffeetisch steht. Das Loch in der Mitte ist dabei kein Backfehler, sondern die Absprungstelle.
+**Gugelhupf** klingt nach einem kleinen, hektischen Waldtier, das sich nicht einfangen lässt. Dabei steckt im ersten Wortteil tatsächlich die **Gugel**, eine mittelalterliche Kapuze. Der zweite Teil wird mit **hupfen** in Verbindung gebracht. Wörtlich steht da also ungefähr: eine hüpfende Kapuze.
 
-Vor dem inneren Auge springt die Gugel tatsächlich — leicht wackelnd in ihrer geriffelten Form, mit Puderzucker bestäubt wie Raureif auf einer Wintermütze. Beim Anschneiden hüpft sie kurz zur Seite, bevor sie sich in Scheiben ergibt. Die Gäste am Tisch tun so, als sei das völlig normal, und greifen beherzt zu, während die Kapuze auf ihren Tellern noch ein letztes Mal zittert.
+Das passt erstaunlich gut zu der hohen, gewölbten Form des Kuchens, der eigentlich mit **Gugelhupf** gemeint ist.  Das Loch in der Mitte ist dabei kein Backfehler, sondern die Absprungstelle. 
 
-Dass ausgerechnet ein mittelalterliches Kleidungsstück und eine Hüpfbewegung zusammen einen der solidesten Kaffeetafel-Klassiker ergeben, wird beim Reinbeißen erstaunlich schnell vergessen — Kuchen schlägt Etymologie zuverlässig.
+Denn ein gut gemachter Gugelhupf hüpft Beim Anschneiden wirlich kurz ein wenig, bevor er sich in seine Scheibenform ergibt. Da wirkt es fast unhöflich, ihn einfach reglos auf dem Kaffeetisch liegen zu lassen.

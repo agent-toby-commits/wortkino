@@ -15,12 +15,12 @@ bild: kakadu.png
 
 ## Bild im Kopf
 
-Wer ein Kleinkind hat, kennt es: Du **Kacka** du! Phonetisch deutlich näher am Lieblingswort der analen Phase, als der  verwandte **Kack**tus oder die **Kack*erlake
+Wer ein Kleinkind hat, kennt es: Mit "Du **Kacka, du!"** kommt der Vogel dem häufigen Lieblingswort der frühen Entwicklungsphase deutlich näher, als die *Kacka-lake* oder der *Kack-tus*. Unser gefiederter Freund kann aber nichts dafür. Sein Name kam über das Niederländische aus dem Malaiischen **kakatua** und bedeutet ungefähr „älteres Geschwister“.
 
-Wie alle Vögel scheiden Kakadus Kot und Harn gemeinsam aus. Deshalb besteht der etwa haselnussgroße Haufen aus drei Teilen:
+Wie alle Vögel besitzt der **Kakadu** keine getrennten Ausgänge für Kot und Urin: Beides verlässt den Körper über die *Kloake*. Was auf dem Käfigboden landet, besteht daher meist aus drei Teilen:
 
-dunkler Anteil = eigentlicher Kot
-weißer Anteil = Harnsäure (nicht Harnstoff wie beim Menschen)
-klarer Anteil = etwas Flüssigkeit
+- der dunkle oder grünliche Anteil: der eigentliche Kot  
+- der weiße Anteil: Harnsäuresalze, die sogenannten Urate  
+- der klare Anteil: Flüssigkeit  
 
-Ein gesunder Kakadu setzt oft alle 15–30 Minuten Kot ab und macht damit seinem Namen alle Ehre.
+Ein gesunder Kakadu setzt oft alle 15–30 Minuten Kot ab und macht damit seinem Namen damit doch noch alle Ehre.

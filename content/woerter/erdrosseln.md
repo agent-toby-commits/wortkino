@@ -11,17 +11,12 @@ bild: erdrosseln.png
 
 ## Beispiel
 
-*„Seniorenheim in Neuwied: 75-Jährige auf Zimmer-Toilette erdrosselt"*
-
+*„Seniorenheim in Neuwied: 75-Jährige auf Zimmer-Toilette erdrosselt“*
 
 ## Bild im Kopf
 
-Amsel, Drossel, Fink und Star – die arme **Drossel** kann nichts dafür, dass ihr Name in diesem düsteren Wort steckt. Mit dem Vogel hat **erdrosseln** natürlich nichts zu tun.
+Amsel, Drossel, Fink und Star: Die arme **Drossel** kann nichts dafür, dass ihr Name in diesem düsteren Wort auftaucht. Der Vogel und das Verb **erdrosseln** sind sprachlich nicht miteinander verwandt. Niemand wird also von einem besonders entschlossenen Singvogel erledigt.
 
-Interessant ist aber, dass erdrosseln eben nicht bloß ein anderes Wort für **erwürgen** ist. Beim Erwürgen kommen die Hände unmittelbar an den Hals. Beim Erdrosseln wird dagegen ein länglicher, biegsamer Gegenstand benutzt – etwa ein Seil, ein Gürtel oder eine Kordel –, um den Hals zuzuziehen.
+Die **Drossel** in *erdrosseln* war ursprünglich ein altes Wort für die Kehle. **Drosseln** bedeutete demnach zunächst, die Kehle zusammenzudrücken. Daraus entwickelte sich auch die technische Drossel: Sie verengt eine Leitung, damit weniger Luft, Wasser oder Kraftstoff hindurchfließt. Im Motor sitzt also, nüchtern betrachtet, eine kleine Kehle mit Kontrollzwang.
 
-Ist dieser Gegenstand stabil genug, um der Gegenwehr des Opfers zu widerstehen, wird die Luftzufuhr immer weiter **gedrosselt**, bis schließlich gar nichts mehr fließt.
-
- 
-
-
+Beim Erdrosseln wird der Hals meist mit einem länglichen, biegsamen Gegenstand wie einem Seil, Gürtel oder auch einer dicken Kette zugeschnürt. Das ist der Unterschied zum **Erwürgen**, bei dem allein die Hände zu Hilfe genommen werden. Die Luftzufuhr wird dabei immer weiter **gedrosselt** — bis nichts mehr durchkommt, und die nächste "**erdrosselt**"-Schlagzeige am nächsten Tag in der Zeitung steht. 

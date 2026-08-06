@@ -17,9 +17,8 @@ bild: auf-dem-schirm.png
 
 Es gibt erstaunlich viele Schirme.
 
-Regenschirme. Sonnenschirme. Fallschirme. Lampenschirme. Bildschirme. Schutzschirme. Rettungsschirme.
+Regenschirme. Sonnenschirme. Fallschirme. Lampenschirme. Bildschirme. Schutzschirme. Rettungsschirme. Welcher davon soll gemeint sein, wenn der Chef fragt, ob man **etwas auf dem Schirm** hat?
 
-Welcher davon soll nun gemeint sein, wenn der Chef fragt, ob man **etwas auf dem Schirm** hat? 
+Usprünglich stand die Verknüpfung tatsächlich zum **Radarschirm**: Auf ihm taucht auf, was sich nähert und besser nicht unbemerkt bleiben sollte. Im Büro ist das aber kein feindliches Flugzeug, sondern eine Präsentation für den nächsten Tag, ein To Do oder ein Termin. Das Prinzip bleibt erstaunlich ähnlich: etwas taucht auf, und jemand muss dafür zuständig sein.
 
-Naheliegend ist dabei tatsächlich nicht der Regen- sondern der **Bildschirm**. Dort erscheinen schließlich unsere Termine, E-Mails und To-do-Listen. Die Redewendung ist deshalb längst fester Bestandteil jedes "Checkin-Calls" geworden. Wer als Angestellter bei der Frage ins Schwitzen kommt, und Zeit gewinnen will, kann es ja mal mit der Antwort "du meinst... jetzt auf meinem Screen?" versuchen.
-
+Daher wurde die Regenwendung inzwischen auf den **Bildschirm** übertragen und ist inzwischen fester Bestandteil jedes Check-in-Calls. Wer bei der Frage ins Schwitzen gerät, und Zeit gewinnen will, kann es ja mal mit der Antwort "du meinst... jetzt auf meinem Screen?" versuchen.

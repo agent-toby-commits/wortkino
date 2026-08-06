@@ -15,8 +15,8 @@ bild: kehlkopf.png
 
 ## Bild im Kopf
 
-**Kehlkopf** behauptet, wörtlich genommen, dass in der Kehle ein zweiter, eigenständiger Kopf sitzt — kleiner als der oben auf den Schultern, aber offenbar zuständig genug, um jedes gesprochene Wort persönlich freizugeben. 
+**Kehlkopf** behauptet, wörtlich genommen, dass in der Kehle ein zweiter, eigenständiger Kopf sitzt — kleiner als der auf den Schultern, aber offenbar zuständig genug, um jedes gesprochene Wort persönlich abzunicken.
 
-Man stellt sich diesen Zweitkopf am besten mit eigenem Gesicht vor, das bei jedem Schluck kurz nach oben rutscht und wieder verschwindet, als würde es grüßen. Bei manchen, fast immer Männern, muss man sich dieses Köpfchen gar nicht vorstellen, sondern sieht es als **Adamsapfel** in voller Aktion.
+Man stellt sich diesen Zweitkopf am besten mit einem eigenen Gesicht vor. Bei jedem Schluck fährt es kurz nach oben, schaut aus dem Hals heraus und verschwindet wieder, als hätte es gerade den Aufzug zur falschen Etage genommen. Bei manchen Menschen ist dieses Köpfchen besonders gut zu erkennen: als **Adamsapfel**.
 
-Während der Kehlkopf unter anderem auch die Stimmbänder enthält, und damit zumindest als wichtiger Bestandteil des Körpers gilt, wirkt der Adamsapfel eher wie ein im Hals stecken gebliebenes Stück der verbotenen Frucht. Übrigens erwähnt die Bibel gar keinen Apfel, aber das wäre ein anderer Lexikoneintrag.
+Der Adamsapfel ist allerdings nicht einfach ein hübscher Zweitkopf, sondern die sichtbare Kante des Schildknorpels — eines Teils des Kehlkopfs. Dabei wirkt er eher wie ein im Hals stecken gebliebenes Stück der verbotenen Frucht. Übrigens erwähnt die Bibel gar keinen *Apfel*, aber das wäre ein anderer Lexikoneintrag.

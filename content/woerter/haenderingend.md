@@ -15,6 +15,8 @@ bild: haenderingend.png
 
 ## Bild im Kopf
 
-Man sieht die beiden miteinander **ringenden** Hände vor sich, wie sie der Handwerksmeister flehentlich möglichen Azubis entgegenstreckt. **Händeringen** ist praktisch die Solitär-Version des deutlich bekannteren Daumen-Catchens.
+Wer **händeringend** Fachkräfte sucht, lässt seine Hände nicht etwa gegeneinander antreten. Gemeint ist eine Verzweiflungsgeste: Die Hände werden ineinander verschränkt und unruhig gegeneinander gedreht, als versuchten sie, aus eigener Kraft eine Lösung aus sich herauszukneten.
 
-Schwierig wird es allerdings, wenn ein Azubi auf das Angebot eingehen und den Meister höflich per Handschlag begrüßen möchte. Dessen Hände sind noch so sehr mit ihrem erbitterten Zweikampf beschäftigt, dass sie den Gruß nicht erwidern können. Die meisten Bewerber dürfte das eher abschrecken: ein **Hand**werks-Chef, der nicht einmal einen **Hände**druck hinbekommt?
+Das Englische macht das Bild sogar noch deutlicher: *to wring one’s hands* bedeutet ebenfalls, sich verzweifelt die Hände zu winden. Im Deutschen steckt diese ganze körperliche Notlage praktischerweise in einem einzigen Wort. Die Hände arbeiten bereits hektisch, während der Rest des Menschen noch versucht, eine Stellenanzeige zu formulieren.
+
+Für den Handwerksmeister ist das allerdings unpraktisch. Kommt tatsächlich ein Azubi zum Vorstellungsgespräch, müsste er zur Begrüßung erst den erbitterten Handknoten lösen. Ein **Hand**werks-Chef, der keinen **Hände**druck zustande bekommt, ist für die meisten Azubis nicht attraktiv.

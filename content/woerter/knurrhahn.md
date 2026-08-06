@@ -15,6 +15,8 @@ bild: knurrhahn.png
 
 ## Bild im Kopf
 
-**Knurrhahn** setzt zwei Tiere zusammen, die eigentlich nichts miteinander zu tun haben: das **Knurren**, sonst Sache von Hunden und leeren Mägen, und den **Hahn**, der bekanntlich kräht, nicht knurrt. Wörtlich genommen entsteht daraus ein Federvieh mit akustischer Fehlfunktion — ein Hahn, der morgens auf dem Misthaufen steht, den Schnabel öffnet und statt eines Krähens ein tiefes, unzufriedenes Knurren produziert, während die anderen Hühner ihn irritiert mustern.
+**Knurrhahn** klingt, als habe die Tierwelt bei der Geräuschverteilung geschlampt. Knurren ist sonst Sache von Hunden, schlecht gelaunten Menschen und gelegentlich dem Magen. Ein **Hahn** dagegen kräht - normalerweise Wörtlich entsteht also ein Federvieh mit Krähstörung.
 
-Der tatsächliche Knurrhahn dagegen schwimmt im Meer, trägt bunte, flügelartige Flossen und knurrt wirklich — allerdings mit der Schwimmblase, nicht mit einem Schnabel, den er als Fisch ohnehin nicht besitzt. Die beiden Bedeutungen treffen sich sprachlich nur im Charakter: Beide klingen mürrisch, beide wirken, als hätten sie schlechte Laune, und beide würden vermutlich auch auf eine Erklärung ihres Namens nur brummend reagieren.
+Der echte Knurrhahn ist allerdings ein Fisch. Er erzeugt seine knurrenden Laute mit Muskeln an der Schwimmblase, die dabei als Resonanzkörper dient. Und seine auffälligen Brustflossen sind nicht bloß maritime Dekoration: Einige ihrer vorderen Strahlen stehen frei und funktionieren wie tastende Finger. Damit läuft der Fisch regelrecht über den Meeresboden und untersucht ihn auf Futter.
+
+Der mürrische Mensch am Stammtisch hat von dieser eleganten Konstruktion leider nur den Klang geerbt. Er tastet sich nicht mit Flossen über den Grund, sondern mit übellaunigen Beschwerden durchs Leben.

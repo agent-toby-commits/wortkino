@@ -15,8 +15,9 @@ bild: haeftling.png
 
 ## Bild im Kopf
 
-Die Endung **-ling** hat im Deutschen einen zweifelhaften Ruf. Sie klebt an Wörtern, die entweder klein, jung oder unfreiwillig in einem Zustand sind: Frischling, Feigling, Schwächling — und eben **Häftling**, jemand, der an seiner Haft gewissermaßen festgemacht ist, wie ein Etikett, das man nicht mehr abreißen kann.
+Die Endung **-ling** macht aus einem Zustand erstaunlich zuverlässig ein braves Persönchen: ein **Lehrling** lernt, ein **Prüfling** wird geprüft, ein **Schützling** wird beschützt. Auch beim **Häftling** tritt die finstere Ganovenvergangenheit sprachlich zurück hinter das regeltreue Ergeben vor dem Knastalltag.
 
-Beim ähnlich gebauten **Flüchtling** hat sich die Sprache inzwischen vorsichtig zurückgezogen: Man sagt heute häufiger **Geflüchtete**. Folgerichtig müsste man auch beim Häftling zum **Verhafteten** wechseln. Nur bedeutet das etwas anderes: Verhaftet ist, wer gerade festgenommen wurde, aber noch nicht im Gefängnis sitzt — möglicherweise sogar unschuldig.
 
-Der Häftling dagegen sitzt bereits, verurteilt oder in Untersuchungshaft, fest im Wortsinn an sein Etikett gebunden. Die Sprache hat hier also noch keine bessere Lösung gefunden — und sitzt selbst ein bisschen fest.
+Ein Häftling ist nicht einfach in Haft, sondern vollständig an sie angeheftet — wie ein Namensschild, das die Justiz am Ärmel festtackert. Das Gefängnis erscheint damit nicht als Gebäude, sondern als besonders entschlossene Büroklammer.
+
+Ein **Flüchtling** wird heute dagegen oft **Geflüchteter** gesagt. Das beschreibt eine Handlung, ohne den Menschen dauerhaft daran festzubinden. **Verhaftete** wäre beim Häftling aber kein ganz gleichwertiger Ersatz: denn die sind meist noch gar nicht hinter Gittern. Der **Häftling** dagegen hat diesen Zustand längst erreicht - nicht selten, um zu bleiben.

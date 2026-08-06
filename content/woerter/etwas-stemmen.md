@@ -3,18 +3,20 @@ begriff: etwas stemmen
 bild: etwas-stemmen.png
 ---
 
-# etwas stemmen
+# (etwas) stemmen
 
 ## Bedeutung
 
-*Eine Herausforderung mit großer Anstrengung meistern*
+*Eine Herausforderung mit großer Anstrengung meistern.*
 
 ## Beispiel
 
-*„Als Alleinerziehende auch noch einen Vollzeitjob zu stemmen ist fast unmöglich“*
+*„Als Alleinerziehende auch noch einen Vollzeitjob zu stemmen, ist fast unmöglich.“*
 
 ## Bild im Kopf
 
-Wer etwas **stemmt**, trägt es nicht einfach nur - sondern drückt sich mit ganzer Kraft gegen eine schwere Last. Vor dem inneren Auge wird aus der Herausforderung so ein dicker **Baumstamm**, der mühsam nach oben **gestemmt** wird. Man sieht förmlich, wie sich die Beine durchdrücken und die Arme vor Anstrengung zittern.
+Wer etwas **stemmt**, trägt es nicht bloß. Das Wort verlangt nach Widerstand: Man drückt sich mit ganzer Kraft gegen eine schwere Last, als müsse ein widerspenstiger Baumstamm in die Luft oder wenigstens aus dem Weg.
 
-Wenn Ihnen eine Freundin erzählt, was sie alles gleichzeitig bewältigen muss - entgegnen Sie doch einfach mal mit bewunderndem Unterton "Wie **stemmst** du das nur?" So findet sie vielleicht in der Verzweiflung neue Stärke.
+Bei einer **gestemmten** „Herausforderung“ ist das besonders aufschlussreich. Sie wird sprachlich nicht einfach erledigt, sondern körperlich bearbeitet: Knie durchgedrückt, Rücken angespannt, die Arme zittern bereits leicht. Ein Vollzeitjob, ein Umzug und zwei kranke Kinder erscheinen plötzlich als eine einzige gigantische Hantel, an der noch ein Aktenordner baumelt.
+
+Das passt zur eigentlichen Verwendung von **stemmen**: Man kann sich auch *gegen* etwas stemmen, etwa gegen eine Tür oder einen umstürzenden Schrank. Wer sein Leben „stemmt“, hält also nicht nur viel aus — er verhindert nebenbei, dass alles zusammenfällt. Und kann mit Recht stolz auf sich sein, und den Sound zu *du bist gut genug* auf sich selbst beziehen.

@@ -15,6 +15,8 @@ bild: schluesselbein.png
 
 ## Bild im Kopf
 
-Dass **Bein** hier nicht das Bein zum Laufen meint, sondern schlicht „Knochen" — wie im älteren Wortsinn von Gebein oder Elfenbein —, klärt sich schnell. Rätselhafter bleibt der erste Teil: Warum ausgerechnet **Schlüssel**? Ein Blick auf den Knochen selbst gibt die Antwort, allerdings erst, wenn man ihn sich wörtlich genug vorstellt: Er liegt schräg über der Brust, leicht S-förmig gebogen, so wie ein altmodischer Drehschlüssel kurz bevor er ins Schloss gesteckt wird.
+Dass **Bein** hier nicht das Bein zum Laufen meint, sondern schlicht „Knochen“ — wie in *Gebeine* oder *Elfenbein* —, ist schnell geklärt. Rätselhafter ist der erste Teil: Warum trägt ausgerechnet ein Knochen den Namen eines Gegenstands aus dem Schlüsselbund?
 
-Bricht das Schlüsselbein, klemmt sinnbildlich das ganze Schloss: Der Arm lässt sich kaum noch heben, als hätte jemand den passenden Schlüssel verlegt. Ein Ersatzschlüssel existiert dafür allerdings nicht — nur sechs Wochen Gips und die Hoffnung, dass der alte irgendwann von selbst wieder zusammenwächst.
+Die Idee ist sehr alt. Schon die Römer nannten das Schlüsselbein *clavicula*, also „kleiner Schlüssel“. Gemeint war wohl seine leicht geschwungene Form: Entfernt erinnert der Knochen an einen alten Drehschlüssel, wie er in einem Schloss herumgedreht wird. Wer seine beiden Schlüsselbeine betrachtet, trägt demnach zwei winzige, ziemlich unpraktische Haustürschlüssel direkt unter der Haut.
+
+Beim Bruch funktioniert diese Vorstellung allerdings nur noch begrenzt. Der Arm lässt sich dann oft kaum bewegen — nicht, weil jemand den Schlüssel verlegt hätte, sondern weil der Knochen als Verbindung zwischen Brustkorb und Schulter plötzlich seinen Dienst quittiert. Ein Ersatzschlüssel ist nicht vorgesehen. Der Körper muss das Original selbst wieder zusammensetzen.

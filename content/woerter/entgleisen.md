@@ -15,7 +15,8 @@ bild: entgleisen.png
 
 ## Bild im Kopf
 
-**Entgleisen** heißt wörtlich: die Gleise verlassen. Ein Zug, der entgleist, fährt nicht mehr dort, wo Schienen liegen, sondern quer über Wiesen, durch Vorgärten, vorbei an ratlosen Zaungästen. Genau dieses Bild wird auf Gesichter und Verhalten übertragen — nur dass hier keine Schienen, sondern gesellschaftliche Erwartungen die vorgesehene Strecke markieren.
+Ein **Gleis** war sprachlich nicht immer zwingend die Doppelspur für Züge. Das Wort bedeutete früher ganz allgemein „Weg“ oder „Spur“. Wer **entgleist**, verlässt also ursprünglich schlicht den vorgesehenen Weg — erst später bekam das Bild die besonders eindrucksvolle Eisenbahnkulisse.
 
-**Entgleiste Gesichtszüge** bedeuten demnach: Die Mimik ist aus ihrer gewohnten Spur gesprungen und rast nun unkontrolliert querfeldein — die Augenbrauen im Steilhang, der Mund irgendwo zwischen Erstaunen und Entsetzen geparkt, während der Rest des Gesichts noch versucht, freundlich zu wirken. Bei **entgleistem Verhalten** ist es ähnlich: Jemand verlässt den vorgesehenen Umgangston und donnert stattdessen durchs offene Gelände sozialer Fettnäpfchen.
+Bei einem Zug ist das unerquicklich und keineswegs komisch. Bei Gesichtszügen dagegen darf man sich die Übertragung vorstellen: Die Mimik springt aus ihrer gewohnten Spur. Die Augenbrauen fahren plötzlich in verschiedene Richtungen, der Mund bleibt irgendwo zwischen Erstaunen und Entsetzen stehen, und die Stirn übernimmt die Leitung eines Betriebs, der offensichtlich keine Fahrpläne mehr kennt.
 
+Auch **entgleistes Verhalten** folgt diesem Bild. Jemand verlässt den üblichen Umgangston und rumpelt stattdessen durch die sozialen Konventionen, als seien sie bloß lose ausgelegte Gartenplatten. Solch *Flegelhaftigkeit* ist freilich auch bei jungen Menschen zu finden, allerdings dort eher als **Crashout** bekannt.

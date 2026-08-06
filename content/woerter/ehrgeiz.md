@@ -15,6 +15,8 @@ bild: ehrgeiz.png
 
 ## Bild im Kopf
 
-**Ehrgeiz** zerlegt sich sauber in **Ehre** und **Geiz** — wörtlich also die Weigerung, auch nur ein Quäntchen Ansehen herzugeben. Wer ehrgeizig ist, hortet demnach nicht Geld, sondern Anerkennung, mit derselben Verbissenheit, mit der andere Menschen Pfandflaschen sammeln.
+**Ehrgeiz** klingt, als bewache jemand seine **Ehre** mit verschränkten Armen und lasse auf keinen Fall auch nur einen Krümel Ansehen aus dem Haus. Tatsächlich steckt in **Geiz** hier die ältere Bedeutung von *Gier* oder *Begierde*: Ehrgeiz ist also die heftige Sehnsucht nach Ehre, Anerkennung und Geltung.
 
-Vor diesem Hintergrund hat sich der Begriff gerade - aber nicht nur - in der Sportwelt ein überraschend positives Image bewahrt. Fehlender Ehrgeiz ist praktisch nie als Kompliment gedacht. Vielleicht wäre aber manchmal etwas weniger Ehrgeiz besser als mehr.
+Das passt erstaunlich gut zu seinem leicht unangenehmen Beiklang. Wer ehrgeizig ist, will nicht einfach nur ordentlich mitarbeiten, sondern möglichst weit nach oben — notfalls bis in die oberste Etage, wo die Zimmerpflanzen nur noch aus Gründen der Außenwirkung gegossen werden.
+
+Vor diesem Hintergrund hat sich der Begriff gerade - aber nicht nur - in der Sportwelt ein überraschend positives Image bewahrt. Hier gilt der *Mangel* an Ehrgeiz als Problem. Ehrgeiz bringt einen voran, ohne Ehrgeiz gewinnt man keinen Pokal.

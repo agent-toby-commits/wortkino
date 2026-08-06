@@ -15,8 +15,8 @@ bild: eichel.png
 
 ## Bild im Kopf
 
-**Eichel** ist eines der zuverlässigsten Teekesselchen der deutschen Sprache: Das eine Mal fällt sie im Herbst von Bäumen und wird von Eichhörnchen gehortet, das andere Mal ist sie anatomisch meist verdeckt und wird eher nicht öffentlich diskutiert. Beide Bedeutungen tragen denselben Namen — und, wörtlich betrachtet, auch dieselbe Form: klein, rundlich, mit markanter Kappe.
+**Eichel** ist ein besonderes, im Wortspiel aber selten genutztes *Teekesselchen*: Im Herbst liegt sie unter Bäumen, wird von Eichhörnchen gehortet und verschwindet notfalls für Monate in einer sehr kleinen Speisekammer. In der Anatomie hingegen ist sie eher kein Gegenstand, den man im Park laut kommentiert. Beide Bedeutungen tragen denselben Namen — und, wörtlich betrachtet, auch dieselbe Form: klein, rundlich, mit markanter Kappe.
 
-Wer sich das konsequent ausmalt, sieht ein Eichhörnchen, das mit ernster Miene durch den Park hüpft und Eicheln stapelt, ohne zu ahnen, welche zweite Bedeutung sein Wintervorrat im Deutschen trägt. Selbst der **Eichelhäher**, ein Vogel, der buchstäblich nach seiner Vorliebe für Eicheln benannt ist, bleibt von der Doppeldeutigkeit unberührt und hackt fröhlich weiter im Unterholz.
+Die Verbindung ist keine deutsche Spezialität. Schon das lateinische **glans** bedeutete sowohl *Eichelfrucht* als auch die anatomische Eichel; daher kommt auch der medizinische Ausdruck *Glans penis*. Offenbar sahen schon die Römer in der Form genug Ähnlichkeit, um einer Körperregion denselben Namen zu geben wie ihrem Waldsnack. Die Botanik und die Urologie teilen sich also seit der Antike eine nüchterne Bildidee.
 
-Die Sprache selbst trennt beide Bedeutungen nie ganz sauber — erstaunlicherweise funktioniert die Trennung sprachlich trotzdem völlig problemlos. Kaum jemand denkt bei einem Spaziergang durch den Wald an den Urologen. Und beim Urologen nicht an den Eichelhähe.
+Ungerührt bleibt davon der **Eichelhäher**. Der Vogel trägt seinen Namen wegen seiner Vorliebe für Eicheln und versteckt die Nüsse als Vorrat. Trotzdem denkt beim Waldspaziergang kaum jemand an die Urologie — und beim Urologen selten an den Eichelhäher.

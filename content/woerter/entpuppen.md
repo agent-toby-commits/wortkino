@@ -15,6 +15,8 @@ bild: entpuppen.png
 
 ## Bild im Kopf
 
-**Entpuppen** klingt nach Enthüllung, meint aber wörtlich: die **Puppe** verlassen. Vor dem inneren Auge platzt die Hülle auf, und heraus kommt nicht die erwartete Raupe-zu-Schmetterling-Romantik, sondern der stille Kollege — immer noch im Bürohemd, nur eben mit Flügeln aus Notenpapier.
+Wer sich **entpuppt**, verlässt sprachlich eine **Puppe**. Gemeint ist die Entwicklungsphase vieler Insekten zwischen Raupe und Schmetterling — und nicht etwa der Kokon. Der Kokon ist nur die gesponnene Schutzhülle; die Puppe sitzt darin wie ein äußerst schweigsamer Fahrgast in einem Wollschal.
 
-Die Kollegen klatschen verlegen. Der Schmetterling setzt sich an den Flügel und spielt. Wer sich **entpuppt**, hat die Verpackung abgelegt. Was darunter steckt, war die ganze Zeit schon da — man hat nur zu lange auf die Schachtel gestarrt.
+Beim stillen Kollegen, der sich plötzlich als veritabler Pianist **entpuppt**, wird das Bild nun unerquicklich konkret: Aus einer bürotauglichen Insektenpuppe schält sich ein Mann im Hemd, setzt sich ungeniert an den Hotel-Flügel und spielt Chopin. Die Kollegen klatschen vorsichtig; man will höflich sein, aber keine Zugabe riskieren..
+
+Das Verb meint also nicht bloß eine Überraschung, sondern eine Verwandlung: Etwas, das zunächst unscheinbar oder ganz anders wirkte, zeigt plötzlich seine eigentliche Gestalt. Diese war freilich schon immer da; nur versteckt unter den Verkleidungen des Alltags.

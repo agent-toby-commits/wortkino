@@ -15,7 +15,8 @@ bild: po.png
 
 ## Bild im Kopf
 
-Kaum ein Körperteil kommt sprachlich mit so wenig aus wie der **Po** — zwei Buchstaben, fertig. Verglichen mit dem eher unschönen **Hintern** oder dem vulgären **Arsch**, wirkt Po dabei fast wieder ein bisschen zu niedlich und damit kindisch. Dennoch hat sich auch für Seniorinnen das Fitnessprogramm "Bauch/Beine/Po" sprachlich fest etabliert.
+Kaum ein Körperteil kommt sprachlich mit so wenig aus wie der **Po**: zwei Buchstaben, fertig. Verglichen mit dem eher kantigen **Hintern** oder dem vulgären **Arsch** wirkt er so niedlich, dass man fast erwartet, er trüge winzige Söckchen. Trotzdem ist der Po gesellschaftlich erstaunlich belastbar: Selbst im Fitnessprogramm „Bauch/Beine/Po“ trainieren Senior*innen völlig selbstverständlich ihren Körperteil mit Kindergartensprache.
 
-Wer es noch kindischer mag, verdoppelt einfach: **Popo**, gerne begleitet von einem beschwichtigenden Tonfall, wie man ihn sonst nur bei Kleinkindern und dementen Verwandten verwendet. Bei beiden hofft man, dass der Po beim Umfallen zur Stelle ist und für eine weiche Landung sorgt - egal wie man ihn nennt. 
+Dabei ist der **Po** gar nicht ursprünglich deutsch. Er ist die Kurzform von **Popo**, und dieses Wort geht auf das französische *popotin* für „Hinterteil“ zurück. Offenbar hat das Französische dem deutschen Gesäß also einst ein kleines, weiches Reisegepäck mitgegeben — allerdings klingt das noch kindlicher, so dass die einsilbige Variante wohl einen sprachlichen Kompromiss darstellt.
 
+Weshalb der italienische Fluß "Po" heißt, ist etymiologisch niciht ganz geklärt, die Römer nannten ihn noch Pados.

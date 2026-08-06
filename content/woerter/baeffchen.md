@@ -3,7 +3,7 @@ begriff: Bäffchen
 bild: baeffchen.png
 ---
 
-# Bäffchen
+# Beffchen (veraltet "Bäffchen")
 
 ## Bedeutung
 
@@ -11,10 +11,12 @@ bild: baeffchen.png
 
 ## Beispiel
 
-*„Der Pfarrer richtete vor der Predigt sein Bäffchen.“*
+*„Der Pfarrer richtete vor der Predigt sein Beffchen.“*
 
 ## Bild im Kopf
 
-Kaum ein Kleidungsstück klingt so unpassend zu seiner Feierlichkeit wie das **Bäffchen**. Wer zum ersten Mal davon hört, denkt eher an ein Geräusch — ein überraschtes „**baff**!" — oder an ein kleines **Äffchen**, das sich still um den Hals eines Würdenträgers geschlichen hat und dort verharrt, weiß gefältelt und regungslos, während sein Träger Urteile spricht oder Predigten hält.
+Kaum ein Kleidungsstück klingt so unpassend zu seiner Feierlichkeit wie das **Beffchen**. Wer das Wort zum ersten Mal hört, erwartet eher ein überraschtes „**baff**!“ oder ein kleines **Äffchen**, das sich um den Hals eines Würdenträgers geschlichen hat und dort nun, weiß gefältelt und erstaunlich diszipliniert, einer Predigt lauscht.
 
-Erklären lässt sich diese Nähe kaum — das Bäffchen stammt aus der mittelalterlichen Halskrause, lange bevor irgendjemand an Affen oder Verblüffung dachte. Die Lautung hat sich einfach so ergeben, unerklärlich und hartnäckig zugleich. Je länger man das Wort ausspricht, desto weniger möchte man glauben, dass  heute in Gerichtssälen und Kirchen ganz selbstverständlich verwendet wird.
+Tatsächlich führt die Spur ganz woandershin: **Beffchen** geht über das Französische *bavette* auf ein Wort für Lätzchen zurück. Und *bavette* hängt mit *bave* zusammen, dem französischen Wort für Speichel. Das feierliche Halsstück, das in Kirche und Gericht Würde ausstrahlen soll, heißt sprachlich also ungefähr: kleines Sabberlätzchen.
+
+Damit wirkt es weniger wie ein Amtsabzeichen als wie eine vorsorgliche Serviette für besonders merkwürdige Worte. Beim Lesen dieses Buches kann man also ein Beffchen gut gebrauchen!

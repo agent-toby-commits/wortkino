@@ -15,9 +15,8 @@ bild: reissverschluss.png
 
 ## Bild im Kopf
 
-Schon beim Aussprechen von **Reißverschluss** hört man förmlich, wie etwas hakt, ratscht, oder sogar **reisst**. Dabei soll er gerade nicht reißen. Im Gegenteil: Sobald ein Reißverschluss tatsächlich reißt, hat man meistens ein Problem.
+Schon beim Aussprechen von **Reißverschluss** hört man förmlich, wie etwas hakt, ratscht oder sogar **reißt**. Dabei soll das Ding gerade nicht reißen. Sobald ein Reißverschluss tatsächlich reißt, steht man schließlich mit einer Jacke da, die plötzlich sehr viel frische Luft zulässt.
 
-Gemeint ist natürlich nicht das Material, sondern die schnelle Bewegung, mit der sich beide Zahnreihen voneinander trennen.
-Trotzdem bleibt ein leicht ungutes Gefühl. Schließlich hat jeder schon erleben müssen, dass es doch keine gute Idee war, zu forsch am Verschluss zu **reißen**. Kaum ein Gebrauchsgegenstand trägt den möglichen Defekt so offen im Namen.
+Das **Reiß-** bezieht sich allerdings nicht auf das Material, sondern auf die rasche, kräftige Bewegung beim Öffnen: Man reißt die beiden Zahnreihen auseinander. Der Verschluss trägt also ausgerechnet die Bedienungsanleitung für den Moment im Namen, in dem man besonders entschlossen an ihm zieht — eine Haltung, die er nur selten mit derselben Begeisterung erwidert.
 
-Dafür birgt der mögliche Defekt auch Gelegenheit für ein befriedigendes Erfolgserlebnis: wenn sich nach einigem Fummeln der verhakte Verschluss plötzlich doch wieder geschmeidig ziehen lässt - dieses Mal aber mit Vorsicht und ohne daran zu reißen.
+Das Englische ist da vorsichtiger. Es nennt ihn **zipper**, nach dem *zip*, also dem kurzen, schnellen Geräusch oder der Bewegung. Deutsch dagegen kündigt gleich eine kleine Gewaltanwendung an. Und tatsächlich kennt fast jeder den Augenblick, in dem der Schieber auf halber Höhe stehen bleibt und man trotzdem noch einmal fester zieht. Ab da ist der Reißverschluss keine Kleidungstechnik mehr, sondern eine sehr kleine Lektion in Geduld.

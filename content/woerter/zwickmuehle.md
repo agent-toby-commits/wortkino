@@ -15,9 +15,8 @@ bild: zwickmuehle.png
 
 ## Bild im Kopf
 
-Eine Mühle, die einen zwickt, möchte man lieber nicht kennenlernen.
-Der Name klingt nach irgendwas zwischen einer mittelalterlichen Foltermaschine und einem kratzenden Pulli. Man steckt irgendwo drin, und egal, wohin man ausweicht – irgendwo zwickt es. 
+Eine **Mühle**, die **zwickt**, klingt befstenfalls unpraktisch. Schlimmstenfalls nach einer mittelalterlichen Foltermaschine. Man sitzt darin fest, rutscht ein Stück nach links — zwick. Rutscht man nach rechts — ebenfalls zwick. Nur der Müller wirkt erstaunlich zufrieden und freut sich auf menschliches Mehl.
 
-Tatsächlich beschreibt eine Zwickmühle ist einfach eine Lage, in der jede Entscheidung Nachteile hat. Geht man nach links, zwickt es. Geht man nach rechts, zwickt es ebenfalls. Der Begriff hat auch nichts mit der mahlenden Mühle zu tun, sondern kommt ursprünglich aus dem Brettspiel "Mühle".
+Mit einer mahlenden Mühle hat die **Zwickmühle** allerdings nichts zu tun. Das Wort stammt aus dem *Brettspiel* Mühle (übrigens auch ein sehr schönes Beispiel für den Teekesselchen-Abend): Dort bezeichnete es eine Stellung, in der ein Spieler mit einem Zug gleich zwei Mühlen auf einmal drohen kann. Der Gegner kann nur eine davon verhindern und muss anschließend zusehen, wie die andere zuschnappt. Eine kleine strategische Falle, aus der es kein Entrinnen gibt.
 
-So gibt der wundersame Begriff unerwartet Munition für den nächsten Teekesselchen-Abend: zwei Bedeutungen, ein Wort. Warum dieses Wort **Teekesselchen** heißt, weiß aber nichtmal der Autor. 
+Erst später wanderte die Zwickmühle vom Spielbrett in den Alltag. Wer zwischen zwei Angeboten, zwei Ideen oder Möglichkeiten feststeckt, erlebt also im Grunde eine Partie Mühle.
