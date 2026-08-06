@@ -3,7 +3,7 @@ begriff: etwas stemmen
 bild: etwas-stemmen.png
 ---
 
-# (etwas) stemmen
+# stemmen (etwas)
 
 ## Bedeutung
 
