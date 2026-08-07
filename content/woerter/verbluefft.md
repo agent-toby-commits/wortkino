@@ -13,8 +13,6 @@ bild: verbluefft.png
 
 *„Als der Magier den Hut abnahm, war das Publikum verblüfft.“*
 
-## Bild im Kopf
-
 **Verblüfft** klingt tatsächlich ein wenig, als sei man Opfer eines **Bluff**es geworden. gekommen. Sprachlich ist das gar nicht so abwegig: Das Wort geht auf mittelniederdeutsch *verbluffen* zurück, das „verwirren“ oder „täuschen“ bedeutete. 
 
 Beim Magier funktioniert das besonders zuverlässig. Er nimmt den Hut ab, der Stuhl scheint plötzlich zu schweben, und keiner hat es kommen sehen. Niemand ist verletzt, niemand wurde verzaubert. Aber es ist doch allerhand!

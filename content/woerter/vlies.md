@@ -13,8 +13,6 @@ bild: vlies.png
 
 *„Jason jagte das Goldene Vlies — nicht das Tegeler Fließ.“*
 
-## Bild im Kopf
-
 Ein **Vlies** ist Wolle, die sich noch nicht zu Stoff zusammengerissen hat: Fasern liegen als lockere Schicht beieinander, ohne gewebt oder gestrickt zu sein. Im Baumarkt dämmt es Wände, in der Textiltechnik wird es zu Filz, Watte oder ähnlichen Flächengebilden verarbeitet. In der griechischen Mythologie dagegen war es ein goldenes Widderfell, das in Kolchis an einem Baum hing und von einem Drachen bewacht wurde. Manche Faserschichten bekommen eben nie einen ruhigen Bürojob.
 
 Sprachlich ist das Wort mit dem englischen **fleece** verwandt. Dort bedeutet es ebenfalls Vlies oder Schaffell — und plötzlich klingt die kuschelige Fleecejacke weniger nach Outdoor-Abteilung als nach einem sehr modernen Goldenen Vlies. Jason hätte vermutlich trotzdem lieber eine Rüstung getragen.

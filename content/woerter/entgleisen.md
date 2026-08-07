@@ -13,8 +13,6 @@ bild: entgleisen.png
 
 *„Bei der Nachricht entgleisten ihm kurz die Gesichtszüge.“*
 
-## Bild im Kopf
-
 Ein **Gleis** war sprachlich nicht immer zwingend die Doppelspur für Züge. Das Wort bedeutete früher ganz allgemein „Weg“ oder „Spur“. Wer **entgleist**, verlässt also ursprünglich schlicht den vorgesehenen Weg — erst später bekam das Bild die besonders eindrucksvolle Eisenbahnkulisse.
 
 Bei einem Zug ist das unerquicklich und keineswegs komisch. Bei Gesichtszügen dagegen darf man sich die Übertragung vorstellen: Die Mimik springt aus ihrer gewohnten Spur. Die Augenbrauen fahren plötzlich in verschiedene Richtungen, der Mund bleibt irgendwo zwischen Erstaunen und Entsetzen stehen, und die Stirn übernimmt die Leitung eines Betriebs, der offensichtlich keine Fahrpläne mehr kennt.

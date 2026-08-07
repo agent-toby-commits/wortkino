@@ -13,10 +13,7 @@ bild: haeftling.png
 
 *„Der Häftling durfte einmal wöchentlich Besuch empfangen.“*
 
-## Bild im Kopf
-
 Die Endung **-ling** macht aus einem Zustand erstaunlich zuverlässig ein braves Persönchen: ein **Lehrling** lernt, ein **Prüfling** wird geprüft, ein **Schützling** wird beschützt. Auch beim **Häftling** tritt die finstere Ganovenvergangenheit sprachlich zurück hinter das regeltreue Ergeben vor dem Knastalltag.
-
 
 Ein Häftling ist nicht einfach in Haft, sondern vollständig an sie angeheftet — wie ein Namensschild, das die Justiz am Ärmel festtackert. Das Gefängnis erscheint damit nicht als Gebäude, sondern als besonders entschlossene Büroklammer.
 

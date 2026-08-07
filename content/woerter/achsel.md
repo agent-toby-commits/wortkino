@@ -13,8 +13,6 @@ bild: achsel.png
 
 *„Sie klemmte sich die Tasche unter die Achsel.“*
 
-## Bild im Kopf
-
 **Achsel** ist eines dieser Wörter, die schon beim Aussprechen leicht feucht wirken. Sofort stehen Achselschweiß, Achselhaare oder der bedauernswerte Axel aus dem Bekanntenkreis im Raum. Dabei kann Axel immerhin noch einen Pullover anziehen. Die Achsel muss grundsätzlich offenbaren, was zwischen Oberarm und Rumpf so alles passiert.
 
 Sprachlich ist sie allerdings überraschend vielseitig: Auch Pflanzen besitzen **Achseln**. Die **Blattachsel** bezeichnet den Winkel zwischen Blatt und Stängel — also genau die kleine Ecke, aus der gern ein neuer Trieb wächst. Wer sich eine Tasche unter die Achsel klemmt, macht anatomisch betrachtet somit etwas sehr Botanisches: Er bewahrt sein Hab und Gut in einer Körperstelle auf, die auch an einem Rosenstrauch nicht fehl am Platz wäre.

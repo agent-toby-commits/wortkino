@@ -13,8 +13,6 @@ bild: um-sich-schiesen.png
 
 *„Festnahme in Frankfurt: Mann schießt in Bahnhofsviertel um sich“*
 
-## Bild im Kopf
-
 Kaum eine Wendung taucht in Lokal-Kriminalberichten so zuverlässig auf wie **um sich schießen** — meist ohne weitere Details, fast schon als Textbaustein zwischen „laut Zeugenaussagen“ und „die Hintergründe sind noch unklar“. Dabei ist **um sich** hier kein besonders geheimnisvoller Schießbefehl, sondern bedeutet schlicht: ringsherum, nach allen Seiten.
 
 Wörtlich genommen verlangt die Formulierung allerdings einiges. Wer wirklich **um sich herum** schießt, müsste sich beim Feuern einmal vollständig im Kreis drehen und jede Himmelsrichtung bedienen — zur Sicherheit auch schräg nach oben, falls sich die Gefahr unerwartet an der Decke festgesetzt hat.

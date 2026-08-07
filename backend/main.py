@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 import html
+import importlib.util
 import json
 import os
 import re
+from datetime import datetime
 from pathlib import Path
 from xml.sax.saxutils import escape as xml_escape
 
@@ -19,6 +21,20 @@ CONTENT_DIR = Path(__file__).resolve().parent.parent / "content" / "woerter"
 CONTENT_ROOT = Path(__file__).resolve().parent.parent / "content"
 FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
 ASSETS_DIR = FRONTEND_DIR / "assets"
+
+
+def _lade_schlagzeilengenerator():
+    """Lädt frontend/schlagzeilengenerator.py als Modul (ohne sys.path-Hack)."""
+    pfad = FRONTEND_DIR / "schlagzeilengenerator.py"
+    spec = importlib.util.spec_from_file_location("schlagzeilengenerator", pfad)
+    if spec is None or spec.loader is None:
+        raise ImportError(f"Schlagzeilengenerator nicht ladbar: {pfad}")
+    modul = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(modul)
+    return modul
+
+
+schlagzeilen_modul = _lade_schlagzeilengenerator()
 
 SITE_URL = os.environ.get("SITE_URL", "https://wortwoert.de").rstrip("/")
 SITE_NAME = "Wortwört"
@@ -461,6 +477,62 @@ def render_az_nav(entries: list[dict]) -> str:
 </nav>"""
 
 
+def _schlagzeilen_datum(wert: str) -> str:
+    """ISO-Datum der NewsAPI als deutsches Datum formatieren."""
+    if not wert or wert == "Unbekannt":
+        return ""
+    try:
+        roh = wert.replace("Z", "+00:00")
+        return datetime.fromisoformat(roh).strftime("%d.%m.%Y")
+    except ValueError:
+        return wert[:10] if len(wert) >= 10 else wert
+
+
+def render_schlagzeilen() -> str:
+    """Aktuelle NewsAPI-Schlagzeilen unter dem Autor-Link, vor dem Register."""
+    schlagzeilen = schlagzeilen_modul.schlagzeilen_laden()
+    if not schlagzeilen:
+        return ""
+
+    eintraege: list[str] = []
+    for schlagzeile in schlagzeilen:
+        titel_html = schlagzeilen_modul.titel_mit_markierten_woertern(
+            schlagzeile["titel"],
+            schlagzeile["suchwoerter"],
+        )
+        datum = _schlagzeilen_datum(str(schlagzeile.get("veroeffentlicht") or ""))
+        medium = (schlagzeile.get("quelle") or "").strip() or "Unbekannt"
+        meta_teile = [teil for teil in (datum, medium) if teil]
+        meta_html = html.escape(", ".join(meta_teile))
+
+        adresse = (schlagzeile.get("adresse") or "").strip()
+        if adresse:
+            href = html.escape(adresse, quote=True)
+            titel_teil = (
+                f'<a href="{href}" rel="noopener noreferrer" '
+                f'target="_blank">{titel_html}</a>'
+            )
+        else:
+            titel_teil = titel_html
+
+        eintraege.append(
+            "    <li>\n"
+            f'      <p class="schlagzeile-meta">{meta_html}</p>\n'
+            f"      <p class=\"schlagzeile-titel\">{titel_teil}</p>\n"
+            "    </li>"
+        )
+
+    return (
+        '<section class="schlagzeilen" aria-labelledby="schlagzeilen-heading">\n'
+        '  <h2 id="schlagzeilen-heading">'
+        "Aktuelle Schlagzeilen mit Wort-Wörtern:</h2>\n"
+        "  <ul>\n"
+        + "\n".join(eintraege)
+        + "\n  </ul>\n"
+        "</section>"
+    )
+
+
 @app.get("/", response_class=HTMLResponse)
 def index():
     index_path = FRONTEND_DIR / "index.html"
@@ -469,6 +541,7 @@ def index():
 
     entries = list_entries()
     az_nav = render_az_nav(entries)
+    schlagzeilen_html = render_schlagzeilen()
     entry_blocks = [
         render_teaser_block(
             e["slug"],
@@ -506,6 +579,7 @@ def index():
     page = index_path.read_text(encoding="utf-8")
     page = page.replace("<!--SEO_HEAD-->", head)
     page = page.replace("<!--SITE_HEADER-->", render_site_header(link_home=False))
+    page = page.replace("<!--SCHLAGZEILEN-->", schlagzeilen_html)
     page = page.replace("<!--WORT_AZ-->", az_nav)
     page = page.replace("<!--WORT_UEBERSICHT-->", overview)
     return page

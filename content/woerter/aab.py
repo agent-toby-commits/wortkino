@@ -24,6 +24,19 @@ BILDMODELL = "gpt-image-2"
 BILDGROESSE = "1024x1536"
 BILDQUALITAET = "high"
 
+# Nur diese Einträge bebildern (Reihenfolge = Bearbeitung).
+QUELL_DATEINAMEN = (
+    "chlor.md",
+    "freilich.md",
+    "inbrunst.md",
+    "irre.md",
+    "lustmolch.md",
+    "penetrieren.md",
+    "quetschen.md",
+    "schluesselbein.md",
+    "um-sich-schiesen.md",
+)
+
 
 def bild_erzeugen(
     client: OpenAI,
@@ -88,7 +101,7 @@ Die neue Illustration soll:
 
 
 def hauptprogramm() -> None:
-    """Geht alphabetisch durch Markdown-Dateien und füllt bilder/ bei Bedarf."""
+    """Erzeugt fehlende Illustrationen für die Whitelist in bilder/."""
     skriptordner = Path(__file__).resolve().parent
 
     # Die .env liegt genau zwei Ordnerebenen über dem Skriptordner.
@@ -110,20 +123,14 @@ def hauptprogramm() -> None:
         if beispielpfad.suffix.casefold() != ".png":
             raise ValueError(f"Beispielbild ist keine PNG-Datei: {beispielpfad}")
 
-    # *-neu.md sind Entwürfe aus aaa.py und sollen nicht bebildert werden.
-    quelldateien = sorted(
-        (
-            pfad
-            for pfad in skriptordner.glob("*.md")
-            if not pfad.stem.casefold().endswith("-neu")
-        ),
-        key=lambda pfad: (pfad.name.casefold(), pfad.name),
-    )
-    if not quelldateien:
-        print("Keine Markdown-Dateien gefunden.")
-        return
+    quelldateien = []
+    for dateiname in QUELL_DATEINAMEN:
+        quellpfad = skriptordner / dateiname
+        if not quellpfad.is_file():
+            raise FileNotFoundError(f"Quelldatei nicht gefunden: {quellpfad}")
+        quelldateien.append(quellpfad)
 
-    print(f"Bearbeite {len(quelldateien)} Markdown-Dateien (A–Z).")
+    print(f"Bearbeite {len(quelldateien)} ausgewählte Markdown-Dateien.")
 
     bilderordner = skriptordner / "bilder"
     bilderordner.mkdir(exist_ok=True)

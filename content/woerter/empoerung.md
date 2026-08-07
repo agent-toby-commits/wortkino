@@ -13,8 +13,6 @@ bild: empoerung.png
 
 *„Empörung über die Entscheidung der Stadtverwaltung.“*
 
-## Bild im Kopf
-
 Bei **Empörung** bleibt niemand einfach sitzen. Das Wort hängt mit dem älteren Verb *empören* zusammen, das ursprünglich so viel wie „in die Höhe heben“ oder „in Aufruhr bringen“ bedeutete. Wer empört ist, wird also sprachlich erst einmal zum **Empor**-Kömmling — innerlich, moralisch und meist auch ein kleines Stück aus dem Sessel.
 
 Die Zeitung hat daraus eine zuverlässige Bewegungsform gemacht: Tag für Tag gibt es „Empörung über …“ Beschlüsse, Statements, Fotos, Fehltritte und gelegentlich über die Empörung der anderen. Überall schnellen Menschen gleichzeitig hoch, nicht unbedingt körperlich, aber mit hochgezogenen Augenbrauen, schüttelnden Lefzen und dem dringenden Wunsch, dass jemand endlich etwas dazu sagt.

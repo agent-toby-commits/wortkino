@@ -13,8 +13,6 @@ bild: wachsen.png
 
 *„Das Kind wuchs schneller, als die Eltern nachkaufen konnten.“*
 
-## Bild im Kopf
-
 **Wachsen** ist ein starkes Verb und benimmt sich entsprechend eigenwillig: Heute **wächst** das Kind, gestern **wuchs** es, und so wird es zu einem Mensch mit ansehnlichem **Wuchs**. 
 
 Einige Teekesselchen hat dies Büchlein ja schon versammelt: mit dem Kernzen-**Wachs** kommt noch eines dazu. Gibt es eigentlich noch jemand in meiner Generation, der den Haribo-Slogon "Und Erwachs'ne ebenso" tatsächlich immer auf Kerzen-Wachs bezogen hat?

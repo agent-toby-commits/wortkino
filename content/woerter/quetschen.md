@@ -13,8 +13,6 @@ bild: quetschen.png
 
 *„In der Bahn wurden alle zusammengequetscht.“*
 
-## Bild im Kopf
-
 **Quetschen** ist ein Wort, das keinen Zweifel an seiner Arbeitsweise lässt: Es drückt so lange, bis der verfügbare Raum plötzlich nur noch eine Erinnerung ist. Bei einer Zitrone tritt Saft aus, beim Akkordeon Musik und in der U-Bahn meist ein leises, aber sehr bestimmtes „Entschuldigung“.
 
 Die **Quetschkommode** heißt so, weil ihr Balg tatsächlich zusammengedrückt wird. Mit einer Kommode hat sie ungefähr so viel zu tun wie ein Schrank mit einem Polka-Walzer: gar nichts. Auch der **Quetschie**, also der Beutel mit Fruchtmus, erfüllt seinen Namen vorbildlich. Man drückt unten, oben erscheint Apfel-Banane — die Tube als Obstlieferant.

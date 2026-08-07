@@ -13,9 +13,7 @@ bild: brustwarze.png
 
 *„Das Baby suchte die Brustwarze.“*
 
-## Bild im Kopf
-
-Kaum ein Körperteil hat einen Namen, der so klingt, als müsse man ihn vorsichtshalber beim Hautarzt vorzeigen, wie die **Brustwarze**. Schuld ist natürlich die **Warze**: Sonst bezeichnet sie eine Hautwucherung, die man lieber vereisen lässt, als sie beim Namen zu nennen. An der Brust sitzt dagegen eine Erhebung, die von Anfang an zum Bauplan gehört und ausgesprochen erwünscht ist. Ein anatomischer Stammgast mit denkbar schlechtem PR-Management.
+Kaum ein Körperteil trägt einen so unschönen Namen wie die **Brustwarze**. Schuld ist der zweite Wortbestandteil: **Warze** — ein Begriff, der sonst ausschließlich für Hautwucherungen reserviert ist, die man beim Hautarzt vereisen lässt. Wörtlich genommen sitzt in der Mitte der Brust also eine medizinisch behandlungsbedürftige Wucherung, die aber, anders als ihre Verwandten an Fuß oder Hand, fest eingeplant und auf Dauer erwünscht ist.
 
 Der geläufige Ersatz **Nippel** wirkt kürzer und weniger dermatologisch. Anatomisch meint er aber nur den vorspringenden Teil. Der dunklere Ring drum herum heißt **Warzenhof** oder medizinisch **Areola**. Das lateinische *areola* bedeutet ursprünglich „kleiner Platz“: Ausgerechnet diese Körperstelle ist sprachlich also ein winziger Platz mit einem Nippel in der Mitte — als hätte die Anatomie dort einen sehr speziellen Dorfplatz angelegt.
 

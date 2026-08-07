@@ -13,8 +13,6 @@ bild: kakadu.png
 
 *„Der Kakadu hat ein Ei gelegt!“*
 
-## Bild im Kopf
-
 Wer ein Kleinkind hat, kennt es: Mit "Du **Kacka, du!"** kommt der Vogel dem häufigen Lieblingswort der frühen Entwicklungsphase deutlich näher, als die *Kacka-lake* oder der *Kack-tus*. Unser gefiederter Freund kann aber nichts dafür. Sein Name kam über das Niederländische aus dem Malaiischen **kakatua** und bedeutet ungefähr „älteres Geschwister“.
 
 Wie alle Vögel besitzt der **Kakadu** keine getrennten Ausgänge für Kot und Urin: Beides verlässt den Körper über die *Kloake*. Was auf dem Käfigboden landet, besteht daher meist aus drei Teilen:

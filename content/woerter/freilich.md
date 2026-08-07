@@ -13,8 +13,6 @@ bild: freilich.png
 
 *„Freilich hätte man das früher klären können.“*
 
-## Bild im Kopf
-
 **Freilich** klingt nach gemütlicher Zustimmung, wie sie nur auf dem bayrischen Land zu Hause ist. Man hört die Kuhglocke, riecht das Heu, und spürt: hier gilt das Wort noch etwas.
 
 Ursprünglich bedeutete **freilich** tatsächlich so etwas wie „freiwillig“ oder „gern“. Es geht auf mittelhochdeutsch *vrīlīche* zurück: frei, bereitwillig, ohne Zwang. Aus diesem freiwilligen Einverständnis wurde mit der Zeit ein bestätigendes „natürlich“. 

@@ -13,8 +13,6 @@ bild: irre.png
 
 *„Total irre! | Verhindert dieser Hamster den DFB-Neubau?“*
 
-## Bild im Kopf
-
 **Irre** ist längst nicht mehr nur eine Diagnose für einen verwirrten Geisteszustand, sondern das amtliche Sirenengeräusch der Boulevard-Schlagzeile. Etwas ist zu groß, zu klein, zu teuer oder auffällig hamsterförmig? Schon ist es ein **irrer** Fall für die Schlagzeile. 
 
 Dabei steckt in **irre** ursprünglich vor allem Orientierungslosigkeit. Wer *irrt*, findet den Weg nicht oder liegt mit einer Annahme daneben; wer jemanden *in die Irre führt*, schickt ihn gezielt auf einen falschen Pfad. Und wer vom falschen Pfad nicht mehr herunter findet, der *irrlichtert*.

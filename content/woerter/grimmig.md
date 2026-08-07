@@ -13,8 +13,6 @@ bild: grimmig.png
 
 *„Der Nachbar schaute grimmig über den Zaun.“*
 
-## Bild im Kopf
-
 **Grimmig** klingt, als hätte jemand die Brüder Grimm persönlich beleidigt — und das Gesicht hätte den Rest erledigt. Die Stirn legt Falten an, der Mund wird zur Linie, und der Blick sagt: Hier ist gerade niemand zu sprechen. Wörtlich genommen trägt man den **Grimm** im Gesicht wie eine Amtsuniform.
 
 Das Wort hängt mit altem Zorn zusammen: Grimm als Ingrimm, als innere Wut, die nicht laut explodiert, sondern leise vor sich hin arbeitet. Wer **grimmig** ist, knurrt nicht unbedingt wie ein Knurrhahn — er schweigt oft, und genau das macht die Atmosphäre eng.

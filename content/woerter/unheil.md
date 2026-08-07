@@ -13,8 +13,8 @@ bild: unheil.png
 
 *„Schon die dunklen Wolken kündigten Unheil an.“*
 
-## Bild im Kopf
+**Unheil** ist wörtlich zunächst einfach das Gegenteil von **Heil**. Und *Heil* bedeutete ursprünglich nicht bloß Rettung, sondern auch Glück, Wohlergehen und ein günstiges Schicksal. Unheil ist also die Mitteilung des Universums: Mit Ihrem Wohlergehen ist es nun leider erstmal aus.
 
-**Unheil** ist wörtlich genommen nichts anderes als die Abwesenheit von **Heil** — als hätte jemand dem inzwischen verpönten Ruhm-Wort von einst alles nehmen wollen.
+Das Wort tritt besonders gern auf, wenn sich etwas bedrohlich zusammenbraut. Unheil **droht**, **zieht auf** oder **nimmt seinen Lauf** — als wäre es eine sehr entschlossene Gewitterfront. Kaum kündigen sich dunkle Wolken an, sitzt es schon in der Ferne und faltet langsam die Ärmel hoch.
 
-Während von Heil heute kaum noch jemand spricht, hat **Unheil** seinen Platz in der Sprache spätestens seit Corona wieder behauptet. Unheil droht. Unheil zieht auf. Unheil nimmt seinen Lauf. Da kann man nur fliehen. Und sein **Heil** in der Flucht suchen. 
+Während **Heil** außerhalb fester Wendungen heute kaum noch neutral verwendet wird, ist **Unheil** erstaunlich munter geblieben. So hat es zur Corona-Zeit regelrechten Auftrieb bekommen. Spästens seitdem wissen wir: das nächste **Unheil** kommt bestimmt.

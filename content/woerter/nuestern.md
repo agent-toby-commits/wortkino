@@ -13,8 +13,6 @@ bild: nuestern.png
 
 *„Das Pferd blähte die Nüstern.“*
 
-## Bild im Kopf
-
 **Nüstern** sind zunächst einmal die besseren Nasenlöcher. **Nasenlöcher** klingen nach Taschentuch, Pollenflug und der dringenden Frage, ob da noch etwas sitzt. **Nüstern** dagegen nach Galopp, kalter Morgenluft und einem Pferd, das soeben beschlossen hat, niemandem mehr etwas zu erklären.
 
 Fast immer treten **Nüstern** im Paar auf, weit geöffnet, dampfend und zu bedeutungsvoller Handlung bereit. Bei Menschen erscheinen sie vor allem dann, wenn ein Text plötzlich literarisch wird. Niemand bläht im Alltag die Nüstern, weil der Bus zu spät kommt. In einem Roman reicht dagegen ein beleidigter Blick, und schon beben sie vor Zorn.

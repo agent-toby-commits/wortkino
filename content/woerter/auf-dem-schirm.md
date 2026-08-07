@@ -13,8 +13,6 @@ bild: auf-dem-schirm.png
 
 *„Hast du das für morgen auf dem Schirm?“*
 
-## Bild im Kopf
-
 Es gibt erstaunlich viele Schirme.
 
 Regenschirme. Sonnenschirme. Fallschirme. Lampenschirme. Bildschirme. Schutzschirme. Rettungsschirme. Welcher davon soll gemeint sein, wenn der Chef fragt, ob man **etwas auf dem Schirm** hat?

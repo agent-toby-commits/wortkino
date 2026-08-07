@@ -13,8 +13,6 @@ bild: schluesselbein.png
 
 *„Beim Sturz vom Fahrrad brach er sich das Schlüsselbein.“*
 
-## Bild im Kopf
-
 Dass **Bein** hier nicht das Bein zum Laufen meint, sondern schlicht „Knochen“ — wie in *Gebeine* oder *Elfenbein* —, ist schnell geklärt. Rätselhafter ist der erste Teil: Warum trägt ausgerechnet ein Knochen den Namen eines Gegenstands aus dem Schlüsselbund?
 
 Die Idee ist sehr alt. Schon die Römer nannten das Schlüsselbein *clavicula*, also „kleiner Schlüssel“. Gemeint war wohl seine leicht geschwungene Form: Entfernt erinnert der Knochen an einen alten Drehschlüssel, wie er in einem Schloss herumgedreht wird. Wer seine beiden Schlüsselbeine betrachtet, trägt demnach zwei winzige, ziemlich unpraktische Haustürschlüssel direkt unter der Haut.

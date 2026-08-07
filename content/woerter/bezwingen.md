@@ -13,8 +13,6 @@ bild: bezwingen.png
 
 *„Testspiel: Fortuna Düsseldorf bezwingt Borussia Dortmund.“*
 
-## Bild im Kopf
-
 **Bezwingen** ist im Sportbericht das Wort für einen Sieg, bei dem offenbar niemand gemütlich ins Ziel spaziert. Ein Team gewinnt nicht einfach, es nimmt den Gegner unter **Zwang** — und dieses Wort gehört tatsächlich zur selben Sprachfamilie. Wer jemanden bezwingt, setzt sich also so entschieden durch, dass der andere nachgeben muss.
 
 Auf dem Rasen hat das seltsame Folgen für das Kopfkino: Der Ball rollt bald nur noch als nebensächlicher Zeuge durchs Bild, während sich zwei Mannschaften wie ein Haufen verknoteter Ringer über den Platz schieben. Irgendwo steckt vermutlich noch ein Schiedsrichter fest, der tapfer versucht, aus einem Menschenknäuel einen Einwurf zu machen.

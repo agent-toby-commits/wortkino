@@ -13,8 +13,6 @@ bild: etwas-stemmen.png
 
 *„Als Alleinerziehende auch noch einen Vollzeitjob zu stemmen, ist fast unmöglich.“*
 
-## Bild im Kopf
-
 Wer etwas **stemmt**, trägt es nicht bloß. Das Wort verlangt nach Widerstand: Man drückt sich mit ganzer Kraft gegen eine schwere Last, als müsse ein widerspenstiger Baumstamm in die Luft oder wenigstens aus dem Weg.
 
 Bei einer **gestemmten** „Herausforderung“ ist das besonders aufschlussreich. Sie wird sprachlich nicht einfach erledigt, sondern körperlich bearbeitet: Knie durchgedrückt, Rücken angespannt, die Arme zittern bereits leicht. Ein Vollzeitjob, ein Umzug und zwei kranke Kinder erscheinen plötzlich als eine einzige gigantische Hantel, an der noch ein Aktenordner baumelt.

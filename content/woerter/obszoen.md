@@ -13,8 +13,6 @@ bild: obszoen.png
 
 *„Der Witz galt vielen als obszön.“*
 
-## Bild im Kopf
-
 **Obszön** ist das feingekleidete Wort für Dinge, bei denen man innerlich die Gardinen zuzieht. Es klingt deutlich kultivierter als „schmutzig“ und weniger direkt als „pervers“ — gerade deshalb eignet es sich hervorragend für Empörung mit aufrechter Haltung.
 
 Dabei war das lateinische **obscaenus**, von dem das Wort stammt, nicht nur sexuell gemeint. Es konnte auch „ekelhaft“, „schmutzig“ oder „unheilvoll“ bedeuten. Obszön war also ursprünglich eher der ungewaschene Rabe, der beim Opferfest quer durchs Bild flattert, als ein besonders frivoler Witz.

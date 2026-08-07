@@ -13,8 +13,6 @@ bild: kehlkopf.png
 
 *„Beim Schlucken hebt und senkt sich der Kehlkopf sichtbar.“*
 
-## Bild im Kopf
-
 **Kehlkopf** behauptet, wörtlich genommen, dass in der Kehle ein zweiter, eigenständiger Kopf sitzt — kleiner als der auf den Schultern, aber offenbar zuständig genug, um jedes gesprochene Wort persönlich abzunicken.
 
 Man stellt sich diesen Zweitkopf am besten mit einem eigenen Gesicht vor. Bei jedem Schluck fährt es kurz nach oben, schaut aus dem Hals heraus und verschwindet wieder, als hätte es gerade den Aufzug zur falschen Etage genommen. Bei manchen Menschen ist dieses Köpfchen besonders gut zu erkennen: als **Adamsapfel**.
